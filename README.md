@@ -50,6 +50,8 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 > * **Les captures d’écran seront ajoutées progressivement !**
 > * **Si une image est peu lisible dans le menu, il suffit de cliquer dessus. L'image s'ouvrira dans un nouvel onglet, vous permettant ainsi de la consulter en taille réelle et d'utiliser la fonction zoom !**
 
+---
+
 > [!TIP]
 > - **Pour afficher les captures d’écran, clique sur le menu déroulant avec l’émoji : `  📸  `.**
 > - **Le menu s’ouvrira et affichera la ou les captures d’écran !**
