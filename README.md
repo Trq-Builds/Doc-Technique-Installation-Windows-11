@@ -161,13 +161,6 @@ Puis valider avec **OK** pour sauvegarder la configuration.
 
 ---
 
-## ` ✅ `︲Conclusion et Annexes :
-
-* Client Windows 11 opérationnel et prêt à être joint à un domaine.  
-* Environnement propre, reproductible, idéal pour la suite (GPO, stratégies, comptes, automatisations).
-
----
-
 ## `🧰`︲Outils et Ressources utilisés pour la création de cette documentation :
 
 ---
