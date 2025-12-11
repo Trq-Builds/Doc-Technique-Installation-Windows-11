@@ -116,13 +116,13 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ### ` ⚙️ `︲Paramètres matériels : RAM, CPU, Disque
 
-* ` 📡 `︲Adressage IP : DHCP
+* ` 📡 `︲Adressage IP : `DHCP`
   
-* ` 📏 `︲Mémoire : **4096 Mo**
+* ` 📏 `︲Mémoire : **`4096Mo`**
   
-* ` 💾 `︲Disque : **80 Go** (dynamique)
+* ` 💾 `︲Disque : **`80Go`** (dynamique)
   
-* ` ❤️ `︲Cœurs : **2**
+* ` ❤️ `︲Cœurs : **`2`**
 
 <details>
   <summary>📸︲Configuration initiale (VMware)</summary>
