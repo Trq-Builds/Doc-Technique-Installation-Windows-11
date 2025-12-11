@@ -2,6 +2,11 @@
 
 ---
 
+Ce dé
+L’objectif est d’avoir un Windows poropre et fonctionel
+
+---
+
 ## ` 📑 `︲Sommaire
 
 1. [` 🛠️ `︲Préparation de l'environnement](#preparation-de-lenvironnement)
@@ -371,11 +376,39 @@ Une fois terminée, il sera nécessaire de redémarrer le serveur pour appliquer
 
 ## `🧰`︲Outils et Ressources utilisés pour la création de cette documentation.
 
-* Windows 11
-* Windows Server 2025
-* VMware.
-* PowerShell
-* Documentation Microsoft (AD, DNS, domaine)
+---
+
+* `🗃️ ︲ 🌐` **︲Documents/Liens d’annexes fournis dans le TP :**
+  * ` 📂 ` ︲`X`.`pdf`
+  
+  * ` 🌐 ` ︲`X`︲[`🌐`]()
+  
+  * ` 🌐 ` ︲`X`︲[`🌐`]()
+  
+  * ` 🌐 ` ︲`X`︲[`🌐`]()
+  
+--- 
+
+* ` 🤖 ` **︲GPT-5.1** ︲  [`🌐`](https://chatgpt.com/)
+  
+* ` ❓ ` **︲Markdownguide.org**   ︲[`🌐`](https://www.markdownguide.org/)
+  
+* ` 🤖 ` **︲NoteBookLM**   ︲[`🌐`](https://notebooklm.google.com/)
+  
+* ` ✂️ ` **︲Screenpresso**   ︲[`🌐`](https://www.screenpresso.com/fr/)
+  
+* ` 😀 ` **︲Smiley.cool**   ︲[`🌐`](https://smiley.cool/emoji-list.php)
+  
+* ` ❓ ` **︲Syntaxe de base pour l’écriture et la mise en forme**  ︲ [`🌐`](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+--- 
+
+> * ` ⏺️ `︲Nagi Player︲ [`🌐`](https://github.com/Anthonyy232/Nagi)
+> 
+> * ` 🎶 `︲ ︲ [`🌐`]()
+> 
+> * ` ☕ `**︲De la patience !**
+---
 
 ---
 
@@ -387,7 +420,6 @@ Ce dépôt présente un guide **complet, structuré et pédagogique**, destiné 
 * le **service DNS** associé
 * la **promotion du serveur en domaine `descartesbleu.org`**
 
-L’objectif est d’avoir un environnement fonctionnel, propre et conforme aux pratiques professionnelles SISR.
 
 ---
 
