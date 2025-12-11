@@ -1,9 +1,8 @@
-# ` 🦺 `︲Doc-Technique-Installation-Windows-11
+# ` 🪟 `︲Doc-Technique-Installation-Windows-11
 
 ---
 
-Ce dé
-L’objectif est d’avoir un Windows poropre et fonctionel
+
 
 ---
 
