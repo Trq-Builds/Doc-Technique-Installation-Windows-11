@@ -8,16 +8,12 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ## ` 📑 `︲Sommaire
 
-1. [` 🛠️ `︲Préparation de l'environnement](#preparation-de-lenvironnement)
-   - [` 💿 `︲Installation de Windows 11 (client)](#installation-de-windows)
-   - [` 💿 `︲Installation de Windows Server 2025 (serveur)](#installation-de-windows-server)
+1. [` 🛠️ `︲Préparation de l'environnement.](#preparation-de-lenvironnement)
+   - [` 💿 `︲Installation de Windows 11 (client).](#installation-de-windows)
+   - [` 💿 `︲XXXXX.](#installation-de-windows)
 
-2. [` 🏛️ `︲Installation et configuration du contrôleur de domaine](#installation-et-configuration-du-controleur-de-domaine)
-   - [` 🔧 `︲Installation des rôles AD DS et DNS](#installation-roles-ad-ds-et-dns)
-   - [` 🌐 `︲Promotion du serveur et création du domaine descartesbleu.org](#promotion-du-serveur-et-creation-du-domaine)
-
-3. [` ✅ `︲Conclusion et Annexes](#conclusion)
-4. [`🧰`︲Outils et Ressources utilisés pour la création de cette documentation.](#outils-et-ressources)
+2. [` ✅ `︲Conclusion et Annexes.](#conclusion)
+3. [`🧰`︲Outils et Ressources utilisés pour la création de cette documentation.](#outils-et-ressources)
 
 ---
 
