@@ -76,10 +76,12 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 ### ` 🧰 `︲Prérequis & outils nécessaires
 
 > [!IMPORTANT]
-> - `🌐`︲ISO Windows 11  
-> - `🖥️`︲VMware Workstation / VirtualBox  
-> - `📦`︲Espace disque nécessaire  
-> - `👤`︲Interface Chaise-Clavier  
+> - `🌐`︲ISO Windows 11 
+>   
+> - `🖥️`︲VMware
+>   
+> - `👤`︲Interface Chaise-Clavier
+> 
 > - `☕`︲Patience  
 
 ---
