@@ -41,13 +41,9 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
    - [` 🚫 `︲Désactivation des options inutiles (télémétrie, suggestions, pubs).](#désactivation-des-options-inutiles)
    - [` 🔐 `︲Vérification du compte & options de sécurité.](#vérification-du-compte--options-de-sécurité)
 
-7. [` 📝 `︲Validation du TP.](#validation-du-tp)
-   - [` ✔️ `︲Objectifs atteints.](#objectifs-atteints)
-   - [` 📸 `︲Captures obligatoires.](#captures-obligatoires)
+7. [` ✅ `︲Conclusion et Annexes.](#conclusion-et-annexes)
 
-8. [` ✅ `︲Conclusion et Annexes.](#conclusion-et-annexes)
-
-9. [` 🧰 `︲Outils & Ressources utilisés.](#outils--ressources-utilisés)
+8. [` 🧰 `︲Outils & Ressources utilisés.](#outils--ressources-utilisés)
 
 ---
 
@@ -304,24 +300,6 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 <a id="vérification-du-compte--options-de-sécurité"></a>
 
 ### ` 🔐 `︲Vérification du compte & options de sécurité
-
-*(sections à compléter)*
-
----
-
-<a id="validation-du-tp"></a>
-
-## ` 📝 `︲Validation du TP
-
-<a id="objectifs-atteints"></a>
-
-### ` ✔️ `︲Objectifs atteints
-
-*(sections à compléter)*
-
-<a id="captures-obligatoires"></a>
-
-### ` 📸 `︲Captures obligatoires
 
 *(sections à compléter)*
 
