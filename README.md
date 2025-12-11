@@ -2,7 +2,7 @@
 
 ---
 
-Ce dépôt GitHub met à disposition une documentation claire et complète pour installer correctement un Windows 11. Il offre des instructions précises et bien organisées, présentées étape par étape, ainsi que des captures d’écran illustrant chaque étape afin de faciliter la compréhension visuelle du processus !
+Ce dépôt GitHub met à disposition une documentation claire et complète pour réaliser une installation propre de Windows 11 en machine virtuelle, grâce à un guide structuré étape par étape et illustré de captures d’écran pour faciliter la compréhension.
 
 ---
 
@@ -49,6 +49,17 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 9. [` 🧰 `︲Outils & Ressources utilisés](#outils--ressources-utilisés)
 
+
+---
+
+> [!NOTE]
+> Cette documentation couvre **100% du cycle d’installation** d’un Windows 11 en machine virtuelle :
+> - Téléchargement de l’ISO  
+> - Configuration de la VM  
+> - Installation de l’OS  
+> - Passage OOBE  
+> - Post-installation immédiate  
+> - Vérifications finales  
 
 ---
 
@@ -198,3 +209,221 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
 > * ` ☕ `**︲De la patience !**
 
 ---
+
+---
+
+---
+
+---
+
+<a id="prérequis--outils-nécessaires"></a>
+## ` 🧰 `︲Prérequis & outils nécessaires
+
+> [!IMPORTANT]
+> - `🌐`︲ISO officielle Windows 11  
+> - `🖥️`︲VMware Workstation / VirtualBox  
+> - `📦`︲Espace disque disponible  
+> - `👤`︲Interface Chaise-Clavier fonctionnelle  
+> - `☕`︲Un peu de patience !  
+
+---
+
+<a id="téléchargement--préparation-des-fichiers"></a>
+# ` 💾 `︲Téléchargement & Préparation des fichiers
+
+---
+
+<a id="téléchargement-officiel-de-liso-windows-11"></a>
+## ` 🌐 `︲Téléchargement officiel de l’ISO Windows 11
+
+(à remplir)
+
+---
+
+<a id="vérification-de-lintégrité-de-liso-sha256"></a>
+## ` 🧲 `︲Vérification de l’intégrité de l’ISO (SHA256)
+
+(à remplir)
+
+---
+
+<a id="organisation-des-fichiers-pour-la-vm"></a>
+## ` 🗂️ `︲Organisation des fichiers pour la VM
+
+(à remplir)
+
+---
+
+<a id="configuration-de-la-machine-virtuelle"></a>
+# ` 🛠️ `︲Configuration de la machine virtuelle
+
+---
+
+<a id="paramètres-matériels--ram-cpu-disque"></a>
+## ` ⚙️ `︲Paramètres matériels : RAM / CPU / Disque
+
+(à remplir)
+
+<details>
+  <summary>📸︲Exemple de configuration (VMware)</summary>
+
+  *(image ici)*
+
+</details>
+
+---
+
+<a id="configuration-réseau--dhcp-nat-bridge"></a>
+## ` 🧩 `︲Configuration réseau : DHCP / NAT / Bridge
+
+(à remplir)
+
+---
+
+<a id="ajout-de-liso-dans-le-lecteur-virtuel"></a>
+## ` 📎 `︲Ajout de l’ISO dans le lecteur virtuel
+
+(à remplir)
+
+---
+
+<a id="paramètres-uefi--secure-boot--tpm-virtuel"></a>
+## ` 🛡️ `︲Paramètres UEFI / Secure Boot / TPM virtuel
+
+(à remplir)
+
+---
+
+<a id="installation-de-windows-11"></a>
+# ` 💿 `︲Installation de Windows 11
+
+---
+
+<a id="choix-de-la-langue-région--clavier"></a>
+## ` 🌍 `︲Choix de la langue, région & clavier
+
+(à remplir)
+
+---
+
+<a id="partitionnement-du-disque-virtuel"></a>
+## ` 🧱 `︲Partitionnement du disque virtuel
+
+(à remplir)
+
+---
+
+<a id="lancement-de-linstallation"></a>
+## ` 🚀 `︲Lancement de l'installation
+
+(à remplir)
+
+---
+
+<a id="configuration-oobe-out-of-box-experience"></a>
+# ` 👤 `︲Configuration OOBE (Out-of-Box Experience)
+
+---
+
+<a id="création-du-compte-utilisateur-local"></a>
+## ` 👤 `︲Création du compte utilisateur local
+
+(à remplir)
+
+---
+
+<a id="mot-de-passe--questions-de-sécurité"></a>
+## ` 🔐 `︲Mot de passe & questions de sécurité
+
+(à remplir)
+
+---
+
+<a id="connexion--non-connexion-à-internet"></a>
+## ` 🌐 `︲Connexion / Non-connexion à Internet
+
+(à remplir)
+
+---
+
+<a id="confidentialité--paramètres-optionnels"></a>
+## ` 📊 `︲Confidentialité & paramètres optionnels
+
+(à remplir)
+
+---
+
+<a id="oobe--options-supplémentaires"></a>
+## ` 🎛️ `︲Paramètres OOBE avancés (optionnel)
+
+(à remplir)
+
+<details>
+  <summary>📸︲Captures OOBE</summary>
+
+  *(images ici)*
+
+</details>
+
+---
+
+<a id="post-installation-immédiate"></a>
+# ` 🧼 `︲Post-Installation Immédiate (VM)
+
+---
+
+<a id="mise-à-jour-windows-update"></a>
+## ` 🔄 `︲Mise à jour Windows Update
+
+(à remplir)
+
+---
+
+<a id="installation-des-vmware-tools--additions-virtuelles"></a>
+## ` 🧩 `︲Installation des VMware Tools / Additions virtuelles
+
+(à remplir)
+
+---
+
+<a id="désactivation-des-options-inutiles"></a>
+## ` 🚫 `︲Désactivation des options inutiles
+
+(à remplir)
+
+---
+
+<a id="vérification-du-compte--options-de-sécurité"></a>
+## ` 🔐 `︲Vérification du compte & options de sécurité
+
+(à remplir)
+
+---
+
+<a id="validation-du-tp"></a>
+# ` 📝 `︲Validation du TP
+
+---
+
+<a id="objectifs-atteints"></a>
+## ` ✔️ `︲Objectifs atteints
+
+(à remplir)
+
+---
+
+<a id="captures-obligatoires"></a>
+## ` 📸 `︲Captures obligatoires
+
+(à remplir)
+
+---
+
+<a id="conclusion--annexes"></a>
+# ` ✅ `︲Conclusion & Annexes
+
+(à remplir)
+
+
+
+
