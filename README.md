@@ -1,62 +1,66 @@
 # ` 🪟 `︲Doc-Technique-Installation-Windows-11
 
+---
+
+Ce dépôt GitHub met à disposition une documentation claire et complète pour réaliser une installation propre de Windows 11 en machine virtuelle, grâce à un guide structuré étape par étape et illustré de captures d’écran pour faciliter la compréhension.
+
+---
+
 ## ` 📑 `︲Sommaire (cliquez pour accéder directement à la section souhaitée)
 
-1. [` 🟦 `︲Introduction.](#introduction)
-   - [` 🎯 `︲Objectifs du TP.](#objectifs-du-tp)
-   - [` 🧰 `︲Prérequis & outils nécessaires.](#prérequis--outils-nécessaires)
+1. [` 🟦 `︲Introduction.](#-︲introduction)
+   - [` 🎯 `︲Objectifs du TP.](#-︲objectifs-du-tp)
+   - [` 🧰 `︲Prérequis & outils nécessaires.](#-︲prérequis--outils-nécessaires)
 
-2. [` 💾 `︲Téléchargement & Préparation des fichiers.](#téléchargement--préparation-des-fichiers)
-   - [` 🌐 `︲Téléchargement officiel de l’ISO Windows 11.](#téléchargement-officiel-de-liso-windows-11)
-   - [` 🧲 `︲Vérification de l’intégrité de l’ISO (SHA256).](#vérification-de-lintégrité-de-liso-sha256)
-   - [` 🗂️ `︲Organisation des fichiers pour la VM.](#organisation-des-fichiers-pour-la-vm)
+2. [` 💾 `︲Téléchargement & Préparation des fichiers.](#-︲téléchargement--préparation-des-fichiers)
+   - [` 🌐 `︲Téléchargement officiel de l'ISO Windows 11.](#-︲téléchargement-officiel-de-liso-windows-11)
+   - [` 🧲 `︲Vérification de l'intégrité de l'ISO (SHA256).](#-︲vérification-de-lintégrité-de-liso-sha256)
+   - [` 🗂️ `︲Organisation des fichiers pour la VM.](#️-︲organisation-des-fichiers-pour-la-vm)
 
-3. [` 🛠️ `︲Configuration de la machine virtuelle.](#configuration-de-la-machine-virtuelle)
-   - [` ⚙️ `︲Paramètres matériels : RAM, CPU, Disque.](#paramètres-matériels--ram-cpu-disque)
-   - [` 🧩 `︲Configuration réseau : DHCP / NAT / Bridge.](#configuration-réseau--dhcp-nat-bridge)
-   - [` 📎 `︲Ajout de l’ISO dans le lecteur virtuel.](#ajout-de-liso-dans-le-lecteur-virtuel)
-   - [` 🛡️ `︲Paramètres UEFI / Secure Boot / TPM virtuel.](#paramètres-uefi--secure-boot--tpm-virtuel)
+3. [` 🛠️ `︲Configuration de la machine virtuelle.](#️-︲configuration-de-la-machine-virtuelle)
+   - [` ⚙️ `︲Paramètres matériels : RAM, CPU, Disque.](#️-︲paramètres-matériels--ram-cpu-disque)
+   - [` 🧩 `︲Configuration réseau : DHCP / NAT / Bridge.](#-︲configuration-réseau--dhcp--nat--bridge)
+   - [` 📎 `︲Ajout de l'ISO dans le lecteur virtuel.](#-︲ajout-de-liso-dans-le-lecteur-virtuel)
+   - [` 🛡️ `︲Paramètres UEFI / Secure Boot / TPM virtuel.](#️-︲paramètres-uefi--secure-boot--tpm-virtuel)
 
-4. [` 💿 `︲Installation de Windows 11.](#installation-de-windows-11)
-   - [` 🌍 `︲Choix de la langue, région & clavier.](#choix-de-la-langue-région--clavier)
-   - [` 🧱 `︲Partitionnement du disque virtuel.](#partitionnement-du-disque-virtuel)
-   - [` 🚀 `︲Lancement de l'installation.](#lancement-de-linstallation)
+4. [` 💿 `︲Installation de Windows 11.](#-︲installation-de-windows-11)
+   - [` 🌍 `︲Choix de la langue, région & clavier.](#-︲choix-de-la-langue-région--clavier)
+   - [` 🧱 `︲Partitionnement du disque virtuel.](#-︲partitionnement-du-disque-virtuel)
+   - [` 🚀 `︲Lancement de l'installation.](#-︲lancement-de-linstallation)
 
-5. [` 👤 `︲Configuration OOBE (Out-of-Box Experience).](#configuration-oobe-out-of-box-experience)
-   - [` 👤 `︲Création du compte utilisateur local.](#création-du-compte-utilisateur-local)
-   - [` 🔐 `︲Mot de passe & questions de sécurité.](#mot-de-passe--questions-de-sécurité)
-   - [` 🌐 `︲Connexion / Non-connexion à Internet.](#connexion--non-connexion-à-internet)
-   - [` 📊 `︲Confidentialité & Paramètres optionnels.](#confidentialité--paramètres-optionnels)
-   - [` 🎛️ `︲Paramètres OOBE avancés (optionnel).](#paramètres-oobe-avancés-optionnel)
+5. [` 👤 `︲Configuration OOBE (Out-of-Box Experience).](#-︲configuration-oobe-out-of-box-experience)
+   - [` 👤 `︲Création du compte utilisateur local.](#-︲création-du-compte-utilisateur-local)
+   - [` 🔐 `︲Mot de passe & questions de sécurité.](#-︲mot-de-passe--questions-de-sécurité)
+   - [` 🌐 `︲Connexion / Non-connexion à Internet.](#-︲connexion--non-connexion-à-internet)
+   - [` 📊 `︲Confidentialité & Paramètres optionnels.](#-︲confidentialité--paramètres-optionnels)
+   - [` 🎛️ `︲Paramètres OOBE avancés (optionnel).](#️-︲paramètres-oobe-avancés-optionnel)
 
-6. [` 🧼 `︲Post-Installation Immédiate (VM).](#post-installation-immédiate-vm)
-   - [` 🔄 `︲Mise à jour Windows Update.](#mise-à-jour-windows-update)
-   - [` 🧩 `︲Installation des VMware Tools / Additions virtuelles.](#installation-des-vmware-tools--additions-virtuelles)
-   - [` 🚫 `︲Désactivation des options inutiles (télémétrie, suggestions, pubs).](#désactivation-des-options-inutiles)
-   - [` 🔐 `︲Vérification du compte & options de sécurité.](#vérification-du-compte--options-de-sécurité)
+6. [` 🧼 `︲Post-Installation Immédiate (VM).](#-︲post-installation-immédiate-vm)
+   - [` 🔄 `︲Mise à jour Windows Update.](#-︲mise-à-jour-windows-update)
+   - [` 🧩 `︲Installation des VMware Tools / Additions virtuelles.](#-︲installation-des-vmware-tools--additions-virtuelles)
+   - [` 🚫 `︲Désactivation des options inutiles (télémétrie, suggestions, pubs).](#-︲désactivation-des-options-inutiles-télémétrie-suggestions-pubs)
+   - [` 🔐 `︲Vérification du compte & options de sécurité.](#-︲vérification-du-compte--options-de-sécurité-1)
 
-7. [` 📝 `︲Validation du TP.](#validation-du-tp)
-   - [` ✔️ `︲Objectifs atteints.](#objectifs-atteints)
-   - [` 📸 `︲Captures obligatoires.](#captures-obligatoires)
+7. [` 📝 `︲Validation du TP.](#-︲validation-du-tp)
+   - [` ✔️ `︲Objectifs atteints.](#️-︲objectifs-atteints)
+   - [` 📸 `︲Captures obligatoires.](#-︲captures-obligatoires)
 
-8. [` ✅ `︲Conclusion et Annexes.](#conclusion-et-annexes)
+8. [` ✅ `︲Conclusion et Annexes.](#-︲conclusion-et-annexes)
 
-9. [` 🧰 `︲Outils & Ressources utilisés.](#outils--ressources-utilisés)
+9. [` 🧰 `︲Outils & Ressources utilisés.](#-︲outils--ressources-utilisés)
 
 ---
 
 > [!NOTE]
-> Cette documentation couvre **100% du cycle d’installation** d’un Windows 11 en machine virtuelle :
-> - Téléchargement de l’ISO  
+> Cette documentation couvre **100% du cycle d'installation** d'un Windows 11 en machine virtuelle :
+> - Téléchargement de l'ISO  
 > - Configuration de la VM  
-> - Installation complète de l’OS  
+> - Installation complète de l'OS  
 > - Passage OOBE  
 > - Post-installation immédiate  
 > - Vérifications finales
 
 ---
-
-<a id="presentation-des-outils"></a>
 
 > [!IMPORTANT]
 > **Présentation des outils et prérequis :**
@@ -69,12 +73,47 @@
 ---
 
 > [!TIP]
-> - Cliquez sur le menu déroulant ` 📸 ` pour afficher les captures d’écran.
-> - Cliquez sur une image pour l’ouvrir en taille réelle.
+> - Cliquez sur le menu déroulant ` 📸 ` pour afficher les captures d'écran.
+> - Cliquez sur une image pour l'ouvrir en taille réelle.
 
 ---
 
-## ` ⚙️ `︲Configuration de la VM
+## ` 🟦 `︲Introduction
+
+### ` 🎯 `︲Objectifs du TP
+
+*(sections à compléter)*
+
+### ` 🧰 `︲Prérequis & outils nécessaires
+
+> [!IMPORTANT]
+> - `🌐`︲ISO Windows 11  
+> - `🖥️`︲VMware Workstation / VirtualBox  
+> - `📦`︲Espace disque nécessaire  
+> - `👤`︲Interface Chaise-Clavier  
+> - `☕`︲Patience  
+
+---
+
+## ` 💾 `︲Téléchargement & Préparation des fichiers
+
+### ` 🌐 `︲Téléchargement officiel de l'ISO Windows 11
+
+*(sections à compléter)*
+
+### ` 🧲 `︲Vérification de l'intégrité de l'ISO (SHA256)
+
+*(sections à compléter)*
+
+### ` 🗂️ `︲Organisation des fichiers pour la VM
+
+*(sections à compléter)*
+
+---
+
+## ` 🛠️ `︲Configuration de la machine virtuelle
+
+### ` ⚙️ `︲Paramètres matériels : RAM, CPU, Disque
 
 * ` 📡 `︲Adressage IP : DHCP  
 * ` 📏 `︲Mémoire : **4096 Mo**  
@@ -94,9 +133,23 @@
 
 </details>
 
+### ` 🧩 `︲Configuration réseau : DHCP / NAT / Bridge
+
+*(sections à compléter)*
+
+### ` 📎 `︲Ajout de l'ISO dans le lecteur virtuel
+
+*(sections à compléter)*
+
+### ` 🛡️ `︲Paramètres UEFI / Secure Boot / TPM virtuel
+
+*(sections à compléter)*
+
 ---
 
-## 2️⃣︲Installation depuis l’ISO
+## ` 💿 `︲Installation de Windows 11
+
+### ` 🌍 `︲Choix de la langue, région & clavier
 
 - Sélectionner langue, clavier et région
 
@@ -119,21 +172,31 @@
 
 </details>
 
+### ` 🧱 `︲Partitionnement du disque virtuel
+
+*(sections à compléter)*
+
+### ` 🚀 `︲Lancement de l'installation
+
+*(sections à compléter)*
+
 ---
 
-## 3️⃣︲Création de l’utilisateur
+## ` 👤 `︲Configuration OOBE (Out-of-Box Experience)
+
+### ` 👤 `︲Création du compte utilisateur local
 
 - **Nom :** `btssio`  
 - **Mot de passe :** `btssio`
 
 <details>
-  <summary>📸︲Création de l’utilisateur</summary>
+  <summary>📸︲Création de l'utilisateur</summary>
 
 ---
 
 <img width="1022" height="769" src="https://github.com/user-attachments/assets/603eca66-704a-4aa0-8b73-7ed9f5db21c1" />
 
-➡️ Entrer le nom d’utilisateur **btssio**.
+➡️ Entrer le nom d'utilisateur **btssio**.
 
 ---
 
@@ -145,7 +208,19 @@
 
 </details>
 
----
+### ` 🔐 `︲Mot de passe & questions de sécurité
+
+*(sections à compléter)*
+
+### ` 🌐 `︲Connexion / Non-connexion à Internet
+
+*(sections à compléter)*
+
+### ` 📊 `︲Confidentialité & Paramètres optionnels
+
+*(sections à compléter)*
+
+### ` 🎛️ `︲Paramètres OOBE avancés (optionnel)
 
 <details>
   <summary>📸︲OPTIONNEL — Choix OOBE</summary>
@@ -160,46 +235,45 @@
 
 ---
 
----
+## ` 🧼 `︲Post-Installation Immédiate (VM)
 
-# ` 💾 `︲Téléchargement & Préparation des fichiers  
-*(sections à remplir)*
+### ` 🔄 `︲Mise à jour Windows Update
 
----
+*(sections à compléter)*
 
-# ` 🛠️ `︲Configuration de la machine virtuelle  
+### ` 🧩 `︲Installation des VMware Tools / Additions virtuelles
+
+*(sections à compléter)*
+
+### ` 🚫 `︲Désactivation des options inutiles (télémétrie, suggestions, pubs)
+
+*(sections à compléter)*
+
+### ` 🔐 `︲Vérification du compte & options de sécurité
+
 *(sections à compléter)*
 
 ---
 
-# ` 💿 `︲Installation de Windows 11  
+## ` 📝 `︲Validation du TP
+
+### ` ✔️ `︲Objectifs atteints
+
+*(sections à compléter)*
+
+### ` 📸 `︲Captures obligatoires
+
 *(sections à compléter)*
 
 ---
 
-# ` 👤 `︲Configuration OOBE  
+## ` ✅ `︲Conclusion et Annexes
+
 *(sections à compléter)*
 
 ---
 
-# ` 🧼 `︲Post-installation Immédiate  
-*(sections à compléter)*
-
----
-
-# ` 📝 `︲Validation du TP  
-*(sections à compléter)*
-
----
-
-# ` ✅ `︲Conclusion & Annexes  
-*(sections à compléter)*
-
----
-
-## `🧰`︲Outils et Ressources utilisés pour cette documentation
-
----
+## ` 🧰 `︲Outils & Ressources utilisés
 
 * ` 🌐 `︲Liens annexes :  
   * X [`🌐`]()  
@@ -219,16 +293,5 @@
 
 > ` ⏺️ `︲Nagi Player [`🌐`](https://github.com/Anthonyy232/Nagi)  
 > ` ☕ `︲De la patience !
-
----
-
-# ` 🧰 `︲Prérequis & outils nécessaires
-
-> [!IMPORTANT]
-> - `🌐`︲ISO Windows 11  
-> - `🖥️`︲VMware Workstation / VirtualBox  
-> - `📦`︲Espace disque nécessaire  
-> - `👤`︲Interface Chaise-Clavier  
-> - `☕`︲Patience  
 
 ---
