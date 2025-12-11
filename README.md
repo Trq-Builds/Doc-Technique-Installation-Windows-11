@@ -21,17 +21,6 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ---
 
-<a id="introduction"></a>
-## `📘`︲Introduction
-
----
-
-<a id="contexte-et-objectifs-du-tp"></a>
-> [!NOTE]
-> Tu vas apprendre à configurer un domaine, comprendre le rôle d’un contrôleur de domaine, gérer efficacement les utilisateurs et les groupes, appliquer des stratégies de groupe (GPO) et automatiser certaines tâches courantes grâce à PowerShell. > L’objectif est de te permettre de mettre en place un environnement réseau fonctionnel et de maîtriser les bases essentielles de l’administration système dans un contexte professionnel.
-
----
-
 <a id="presentation-de-larchitecture-reseau-et-des-outils-utilises"></a>
 > [!IMPORTANT]
 > **Présentation des outils et prérequis :**
