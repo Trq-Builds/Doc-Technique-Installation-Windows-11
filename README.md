@@ -73,6 +73,8 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 > 
 > - `☕`︲**Patience**
 
+---
+
 > [!NOTE]
 > Cette documentation couvre **100% du cycle d'installation** d'un Windows 11 en machine virtuelle :
 > - Téléchargement de l'ISO  
