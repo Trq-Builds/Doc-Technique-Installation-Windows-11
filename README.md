@@ -25,9 +25,13 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 > [!IMPORTANT]
 > **Présentation des outils et prérequis :**
 > - `🖥️`︲**Client :** Windows 11
+> -  
 > - `🔧`︲**Outils :** VMware
+> -  
 > - ` 📦 `︲**VMWare :** ︲[`🌐`](https://www.vmware.com/)
+> -  
 > - ` 👤 `︲**Interface Chaise-Clavier fonctionnelle.**
+> -  
 > - ` ☕ `︲**Un peu de patience !**
 
 ---
