@@ -353,12 +353,7 @@ Une fois terminée, il sera nécessaire de redémarrer le serveur pour appliquer
 ## ` ✅ `︲Conclusion et Annexes
 
 * d’un **client Windows 11 prêt à joindre un domaine**
-* d’un **serveur Windows Server 2025 propre**
-* du rôle **AD DS**
-* du rôle **DNS**
-* d’un domaine **entièrement fonctionnel**
 * d’un environnement propre, reproductible et exploitable pour la suite (GPO, comptes, stratégies, automatisations).
-
 
 ---
 
