@@ -2,7 +2,7 @@
 
 ---
 
-Ce dépôt GitHub met à disposition une documentation claire et complète pour installer correctement un client Windows 11. Il offre des instructions précises et bien organisées, présentées étape par étape, ainsi que des captures d’écran illustrant chaque étape afin de faciliter la compréhension visuelle du processus !
+Ce dépôt GitHub met à disposition une documentation claire et complète pour installer correctement un Windows 11. Il offre des instructions précises et bien organisées, présentées étape par étape, ainsi que des captures d’écran illustrant chaque étape afin de faciliter la compréhension visuelle du processus !
 
 ---
 
