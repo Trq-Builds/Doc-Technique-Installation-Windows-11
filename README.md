@@ -365,7 +365,7 @@ Une fois terminée, il sera nécessaire de redémarrer le serveur pour appliquer
 
 ---
 
-* `🗃️ ︲ 🌐` **︲Documents/Liens d’annexes fournis dans le TP :**
+* ` 🌐 ` **︲/Liens d’annexes :**
   * ` 📂 ` ︲`X`.`pdf`
   
   * ` 🌐 ` ︲`X`︲[`🌐`]()
