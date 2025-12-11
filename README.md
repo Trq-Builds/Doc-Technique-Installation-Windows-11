@@ -332,7 +332,8 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ---
 
-> ` ⏺️ `︲Nagi Player︲[`🌐`](https://github.com/Anthonyy232/Nagi)  
+> ` ⏺️ `︲Nagi Player︲[`🌐`](https://github.com/Anthonyy232/Nagi)
+
 > ` ☕ `︲De la patience !
 
 ---
