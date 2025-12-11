@@ -362,3 +362,7 @@ Une fois terminée, il sera nécessaire de redémarrer le serveur pour appliquer
 ## ` ✅ `︲Conclusion et Annexes
 
 ---
+
+## `🧰`︲Outils et Ressources utilisés pour la création de cette documentation.
+
+---
