@@ -358,3 +358,7 @@ Une fois terminée, il sera nécessaire de redémarrer le serveur pour appliquer
 </details>
 
 ---
+
+## ` ✅ `︲Conclusion et Annexes
+
+---
