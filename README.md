@@ -35,19 +35,19 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
    - [` 📊 `︲Confidentialité & Paramètres optionnels.](#confidentialité--paramètres-optionnels)
    - [` 🎛️ `︲Paramètres OOBE avancés (optionnel).](#paramètres-oobe-avancés-optionnel)
 
-6. [` 🧼 `︲Post-Installation Immédiate (VM)](#post-installation-immédiate-vm)
-   - [` 🔄 `︲Mise à jour Windows Update](#mise-à-jour-windows-update)
-   - [` 🧩 `︲Installation des VMware Tools / Additions virtuelles](#installation-des-vmware-tools--additions-virtuelles)
-   - [` 🚫 `︲Désactivation des options inutiles (télémétrie, suggestions, pubs)](#désactivation-des-options-inutiles)
-   - [` 🔐 `︲Vérification du compte & options de sécurité](#vérification-du-compte--options-de-sécurité)
+6. [` 🧼 `︲Post-Installation Immédiate (VM).](#post-installation-immédiate-vm)
+   - [` 🔄 `︲Mise à jour Windows Update.](#mise-à-jour-windows-update)
+   - [` 🧩 `︲Installation des VMware Tools / Additions virtuelles.](#installation-des-vmware-tools--additions-virtuelles)
+   - [` 🚫 `︲Désactivation des options inutiles (télémétrie, suggestions, pubs).](#désactivation-des-options-inutiles)
+   - [` 🔐 `︲Vérification du compte & options de sécurité.](#vérification-du-compte--options-de-sécurité)
 
-7. [` 📝 `︲Validation du TP](#validation-du-tp)
-   - [` ✔️ `︲Objectifs atteints](#objectifs-atteints)
-   - [` 📸 `︲Captures obligatoires](#captures-obligatoires)
+7. [` 📝 `︲Validation du TP.](#validation-du-tp)
+   - [` ✔️ `︲Objectifs atteints.](#objectifs-atteints)
+   - [` 📸 `︲Captures obligatoires.](#captures-obligatoires)
 
-8. [` ✅ `︲Conclusion et Annexes](#conclusion-et-annexes)
+8. [` ✅ `︲Conclusion et Annexes.](#conclusion-et-annexes)
 
-9. [` 🧰 `︲Outils & Ressources utilisés](#outils--ressources-utilisés)
+9. [` 🧰 `︲Outils & Ressources utilisés.](#outils--ressources-utilisés)
 
 
 ---
