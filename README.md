@@ -1,11 +1,5 @@
 # ` 🪟 `︲Doc-Technique-Installation-Windows-11
 
----
-
-Ce dépôt GitHub met à disposition une documentation claire et complète pour réaliser une installation propre de Windows 11 en machine virtuelle, grâce à un guide structuré étape par étape et illustré de captures d’écran pour faciliter la compréhension.
-
----
-
 ## ` 📑 `︲Sommaire (cliquez pour accéder directement à la section souhaitée)
 
 1. [` 🟦 `︲Introduction.](#introduction)
@@ -54,49 +48,41 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 > [!NOTE]
 > Cette documentation couvre **100% du cycle d’installation** d’un Windows 11 en machine virtuelle :
-> - Téléchargement de l’ISO  
-> - Configuration de la VM  
-> - Installation de l’OS  
-> - Passage OOBE  
-> - Post-installation immédiate  
-> - Vérifications finales  
+> - Téléchargement de l’ISO.
+> - Configuration de la VM.
+> - Installation de l’OS.
+> - Passage OOBE.
+> - Post-installation immédiate.
+> - Vérifications finales.
 
 ---
 
 <a id="presentation-de-larchitecture-reseau-et-des-outils-utilises"></a>
 > [!IMPORTANT]
 > **Présentation des outils et prérequis :**
-> - `🖥️`︲**Client :** Windows 11
->   
-> - `🔧`︲**Outils :** VMware
->   
-> - ` 📦 `︲**VMWare :** ︲[`🌐`](https://www.vmware.com/)
->   
-> - ` 👤 `︲**Interface Chaise-Clavier fonctionnelle.**
->   
-> - ` ☕ `︲**Un peu de patience !**
+> - `🖥️`︲**Client :** Windows 11  
+> - `🔧`︲**Outils :** VMware  
+> - ` 📦 `︲**VMWare :** ︲[`🌐`](https://www.vmware.com/)  
+> - ` 👤 `︲**Interface Chaise-Clavier fonctionnelle**  
+> - ` ☕ `︲**Un peu de patience !**  
 
 ---
 
 > [!IMPORTANT]
-> * **Les captures d’écran seront ajoutées progressivement !**
-> * **Si une image est peu lisible dans le menu, il suffit de cliquer dessus. L'image s'ouvrira dans un nouvel onglet, vous permettant ainsi de la consulter en taille réelle et d'utiliser la fonction zoom !**
+> * **Les captures d’écran seront ajoutées progressivement.**  
+> * **Si une image est peu lisible dans le menu, cliquez dessus pour l'ouvrir en taille réelle (zoom possible).**
 
 > [!TIP]
-> - **Pour afficher les captures d’écran, clique sur le menu déroulant avec l’émoji : `  📸  `.**
-> - **Le menu s’ouvrira et affichera la ou les captures d’écran !**
+> - Cliquez sur le menu déroulant ` 📸 ` pour afficher les captures d’écran.
 
 ---
 
-` ⚙️ `︲**Configuration de la VM.**
+` ⚙️ `︲**Configuration de la VM :**
 
-* ` 📡 ` ︲**Adressage IP :** dynamique (DHCP) récupérer une adresse sur le réseau local physique.
-
-* ` 📏 ` ︲**Mémoire :** `4096 Mo`.
-
-* ` 💾 ` ︲**Disque :** `80Go` (allocation dynamique).
-
-* ` ❤️ ` ︲**Cœurs :** `2`.
+* ` 📡 `︲**Adressage IP :** dynamique (DHCP).  
+* ` 📏 `︲**Mémoire :** `4096 Mo`.  
+* ` 💾 `︲**Disque :** `80 Go` (allocation dynamique).  
+* ` ❤️ `︲**Cœurs :** `2`.  
 
 <details>
   <summary>📸︲Configuration initiale (VMware)</summary>
@@ -106,8 +92,8 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 <img width="761" height="733" alt="Screenshot_29" src="https://github.com/user-attachments/assets/8e838f92-9bf5-445a-b6e1-61ea1c5d9e1b" />
 
 Sur cette capture, on peut voir la **configuration de la mémoire de la VM sous VMware**.  
-Il faut régler la mémoire à **4096 Mo (4 Go)**, soit en utilisant le curseur, soit en entrant la valeur manuellement.  
-Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configuration !
+Il faut régler la mémoire à **4096 Mo (4 Go)** via le curseur ou en entrant la valeur manuellement.  
+Puis valider avec **OK** pour sauvegarder la configuration.
 
 ---
 
@@ -116,22 +102,24 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
 ---
 
 2️⃣︲**Installation depuis l’ISO**  
-   - Sélectionner langue, clavier et région  
+   - Sélectionner langue, clavier et région
 
 <details>
   <summary>📸︲Sélection clavier et installation</summary>
 
-  ---
-  <img width="1022" height="769" alt="Screenshot_2" src="https://github.com/user-attachments/assets/4013d7fe-1cf0-4e5c-8d7d-b4cf663a85e1" />
+---
 
-  Sur cette capture, on peut voir la **sélection du clavier**.  
-  Il faut s’assurer que la méthode d’entrée est **Français (Traditionnel, AZERTY)** avant de cliquer sur *Suivant*.
+<img width="1022" height="769" src="https://github.com/user-attachments/assets/4013d7fe-1cf0-4e5c-8d7d-b4cf663a85e1" />
 
-  ---
-  <img width="1026" height="771" alt="Screenshot_3" src="https://github.com/user-attachments/assets/4b8cf19c-df8b-443c-9127-bc6d3805b8a7" />
+*(Sélection du clavier : choisir **Français (AZERTY)** et cliquer sur Suivant.)*
 
-  Sur cette capture, on peut voir le **type d’installation**.  
-  Il faut choisir *Installer Windows 11* et cocher la suppression de tous les fichiers, applications et paramètres avant de cliquer sur *Suivant*.
+---
+
+<img width="1026" height="771" src="https://github.com/user-attachments/assets/4b8cf19c-df8b-443c-9127-bc6d3805b8a7" />
+
+*(Choix du type d’installation : sélectionner **Installer Windows 11**.)*
+
+---
 
 </details>
 
@@ -139,24 +127,30 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
 
 3️⃣︲**Création de l’utilisateur**  
    - **Nom :** `btssio`  
-   - **Mot de passe :** `btssio`  
+   - **Mot de passe :** `btssio`
 
 <details>
   <summary>📸︲Création de l’utilisateur</summary>
 
-<img width="1022" height="769" alt="Screenshot_11" src="https://github.com/user-attachments/assets/603eca66-704a-4aa0-8b73-7ed9f5db21c1" />
+---
 
-➡️ Entrer le **nom d’utilisateur `btssio`**, cliquer sur **Suivant**
+<img width="1022" height="769" src="https://github.com/user-attachments/assets/603eca66-704a-4aa0-8b73-7ed9f5db21c1" />
 
-<img width="1024" height="770" alt="Screenshot_13" src="https://github.com/user-attachments/assets/73800d3f-d047-4310-91e1-c5b03380349b" />
+➡️ Entrer le **nom d’utilisateur `btssio`** puis cliquer sur **Suivant**.
 
-➡️ Entrer le **mot de passe `btssio`** et confirmer  
+---
+
+<img width="1024" height="770" src="https://github.com/user-attachments/assets/73800d3f-d047-4310-91e1-c5b03380349b" />
+
+➡️ Entrer le **mot de passe `btssio`** et confirmer.
+
+---
 
 </details>
 
 <details>
-  <summary>📸︲OPTIONEL CHOIX OOBE</summary>
-  
+  <summary>📸︲OPTIONNEL — Choix OOBE</summary>
+
 <img width="1026" height="770" alt="Screenshot_18" src="https://github.com/user-attachments/assets/4004e27f-c2c2-46b7-9460-b3ddda233c92" />
 <img width="1022" height="771" alt="Screenshot_17" src="https://github.com/user-attachments/assets/720c73cd-2ad4-465e-b58a-ca5906f895f3" />
 <img width="1027" height="771" alt="Screenshot_16" src="https://github.com/user-attachments/assets/592a58d9-d7e7-4497-b808-62d184f0e42f" />
@@ -169,8 +163,8 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
 
 ## ` ✅ `︲Conclusion et Annexes :
 
-* d’un **client Windows 11 prêt à joindre un domaine**
-* d’un environnement propre, reproductible et exploitable pour la suite (GPO, comptes, stratégies, automatisations).
+* Client Windows 11 opérationnel et prêt à être joint à un domaine.  
+* Environnement propre, reproductible, idéal pour la suite (GPO, stratégies, comptes, automatisations).
 
 ---
 
@@ -178,251 +172,77 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
 
 ---
 
-* ` 🌐 ` **︲/Liens d’annexes :**
+* ` 🌐 `︲**Liens annexes :**
+  * X [`🌐`]()
+  * X [`🌐`]()
+  * X [`🌐`]()
   
-  * ` 🌐 ` ︲`X`︲[`🌐`]()
-  
-  * ` 🌐 ` ︲`X`︲[`🌐`]()
-  
-  * ` 🌐 ` ︲`X`︲[`🌐`]()
-  
---- 
+---
 
-* ` 🤖 ` **︲GPT-5.1** ︲  [`🌐`](https://chatgpt.com/)
-  
-* ` ❓ ` **︲Markdownguide.org**   ︲[`🌐`](https://www.markdownguide.org/)
-  
-* ` 🤖 ` **︲NoteBookLM**   ︲[`🌐`](https://notebooklm.google.com/)
-  
-* ` ✂️ ` **︲Screenpresso**   ︲[`🌐`](https://www.screenpresso.com/fr/)
-  
-* ` 😀 ` **︲Smiley.cool**   ︲[`🌐`](https://smiley.cool/emoji-list.php)
-  
-* ` ❓ ` **︲Syntaxe de base pour l’écriture et la mise en forme**  ︲ [`🌐`](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
---- 
-
-> * ` ⏺️ `︲Nagi Player︲ [`🌐`](https://github.com/Anthonyy232/Nagi)
-> 
-> * ` 🎶 `︲ ︲ [`🌐`]()
-> 
-> * ` ☕ `**︲De la patience !**
+* ` 🤖 `︲GPT-5.1 [`🌐`](https://chatgpt.com/)  
+* ` ❓ `︲Markdownguide.org [`🌐`](https://www.markdownguide.org/)  
+* ` 🤖 `︲NotebookLM [`🌐`](https://notebooklm.google.com/)  
+* ` ✂️ `︲Screenpresso [`🌐`](https://www.screenpresso.com/fr/)  
+* ` 😀 `︲Smiley.cool [`🌐`](https://smiley.cool/emoji-list.php)  
+* ` ❓ `︲Syntaxe GitHub Markdown [`🌐`](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ---
 
----
+> ` ⏺️ `︲Nagi Player [`🌐`](https://github.com/Anthonyy232/Nagi)  
+> ` ☕ `︲De la patience !  
 
 ---
 
----
-
-<a id="prérequis--outils-nécessaires"></a>
-## ` 🧰 `︲Prérequis & outils nécessaires
+# ` 🧰 `︲Prérequis & outils nécessaires
 
 > [!IMPORTANT]
-> - `🌐`︲ISO officielle Windows 11  
+> - `🌐`︲ISO Windows 11  
 > - `🖥️`︲VMware Workstation / VirtualBox  
-> - `📦`︲Espace disque disponible  
-> - `👤`︲Interface Chaise-Clavier fonctionnelle  
-> - `☕`︲Un peu de patience !  
+> - `📦`︲Espace disque nécessaire  
+> - `👤`︲Interface Chaise-Clavier  
+> - `☕`︲Patience  
 
 ---
 
-<a id="téléchargement--préparation-des-fichiers"></a>
 # ` 💾 `︲Téléchargement & Préparation des fichiers
 
----
-
-<a id="téléchargement-officiel-de-liso-windows-11"></a>
-## ` 🌐 `︲Téléchargement officiel de l’ISO Windows 11
-
-(à remplir)
+*(sections à remplir ci-dessous)*
 
 ---
 
-<a id="vérification-de-lintégrité-de-liso-sha256"></a>
-## ` 🧲 `︲Vérification de l’intégrité de l’ISO (SHA256)
-
-(à remplir)
-
----
-
-<a id="organisation-des-fichiers-pour-la-vm"></a>
-## ` 🗂️ `︲Organisation des fichiers pour la VM
-
-(à remplir)
-
----
-
-<a id="configuration-de-la-machine-virtuelle"></a>
 # ` 🛠️ `︲Configuration de la machine virtuelle
 
----
-
-<a id="paramètres-matériels--ram-cpu-disque"></a>
-## ` ⚙️ `︲Paramètres matériels : RAM / CPU / Disque
-
-(à remplir)
-
-<details>
-  <summary>📸︲Exemple de configuration (VMware)</summary>
-
-  *(image ici)*
-
-</details>
+*(sections à compléter)*
 
 ---
 
-<a id="configuration-réseau--dhcp-nat-bridge"></a>
-## ` 🧩 `︲Configuration réseau : DHCP / NAT / Bridge
-
-(à remplir)
-
----
-
-<a id="ajout-de-liso-dans-le-lecteur-virtuel"></a>
-## ` 📎 `︲Ajout de l’ISO dans le lecteur virtuel
-
-(à remplir)
-
----
-
-<a id="paramètres-uefi--secure-boot--tpm-virtuel"></a>
-## ` 🛡️ `︲Paramètres UEFI / Secure Boot / TPM virtuel
-
-(à remplir)
-
----
-
-<a id="installation-de-windows-11"></a>
 # ` 💿 `︲Installation de Windows 11
 
----
-
-<a id="choix-de-la-langue-région--clavier"></a>
-## ` 🌍 `︲Choix de la langue, région & clavier
-
-(à remplir)
+*(sections à compléter)*
 
 ---
 
-<a id="partitionnement-du-disque-virtuel"></a>
-## ` 🧱 `︲Partitionnement du disque virtuel
+# ` 👤 `︲Configuration OOBE
 
-(à remplir)
-
----
-
-<a id="lancement-de-linstallation"></a>
-## ` 🚀 `︲Lancement de l'installation
-
-(à remplir)
+*(sections à compléter)*
 
 ---
 
-<a id="configuration-oobe-out-of-box-experience"></a>
-# ` 👤 `︲Configuration OOBE (Out-of-Box Experience)
+# ` 🧼 `︲Post-installation Immédiate
+
+*(sections à compléter)*
 
 ---
 
-<a id="création-du-compte-utilisateur-local"></a>
-## ` 👤 `︲Création du compte utilisateur local
-
-(à remplir)
-
----
-
-<a id="mot-de-passe--questions-de-sécurité"></a>
-## ` 🔐 `︲Mot de passe & questions de sécurité
-
-(à remplir)
-
----
-
-<a id="connexion--non-connexion-à-internet"></a>
-## ` 🌐 `︲Connexion / Non-connexion à Internet
-
-(à remplir)
-
----
-
-<a id="confidentialité--paramètres-optionnels"></a>
-## ` 📊 `︲Confidentialité & paramètres optionnels
-
-(à remplir)
-
----
-
-<a id="oobe--options-supplémentaires"></a>
-## ` 🎛️ `︲Paramètres OOBE avancés (optionnel)
-
-(à remplir)
-
-<details>
-  <summary>📸︲Captures OOBE</summary>
-
-  *(images ici)*
-
-</details>
-
----
-
-<a id="post-installation-immédiate"></a>
-# ` 🧼 `︲Post-Installation Immédiate (VM)
-
----
-
-<a id="mise-à-jour-windows-update"></a>
-## ` 🔄 `︲Mise à jour Windows Update
-
-(à remplir)
-
----
-
-<a id="installation-des-vmware-tools--additions-virtuelles"></a>
-## ` 🧩 `︲Installation des VMware Tools / Additions virtuelles
-
-(à remplir)
-
----
-
-<a id="désactivation-des-options-inutiles"></a>
-## ` 🚫 `︲Désactivation des options inutiles
-
-(à remplir)
-
----
-
-<a id="vérification-du-compte--options-de-sécurité"></a>
-## ` 🔐 `︲Vérification du compte & options de sécurité
-
-(à remplir)
-
----
-
-<a id="validation-du-tp"></a>
 # ` 📝 `︲Validation du TP
 
----
-
-<a id="objectifs-atteints"></a>
-## ` ✔️ `︲Objectifs atteints
-
-(à remplir)
+*(sections à compléter)*
 
 ---
 
-<a id="captures-obligatoires"></a>
-## ` 📸 `︲Captures obligatoires
-
-(à remplir)
-
----
-
-<a id="conclusion--annexes"></a>
 # ` ✅ `︲Conclusion & Annexes
 
-(à remplir)
+*(sections à compléter)*
 
 
 
