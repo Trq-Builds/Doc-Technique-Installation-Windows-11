@@ -6,7 +6,7 @@ Ce Repo GitHub présente un guide complet mais simple pour réaliser le TP "Admi
 
 ---
 
-## ` 📑 `︲Sommaire (cliquez pour accéder directement à la section souhaitée.)
+## ` 📑 `︲Sommaire
 
 1. [` 📘 `︲Introduction](#introduction)
    - [` ❔ `︲Contexte et objectifs du TP](#contexte-et-objectifs-du-tp)
