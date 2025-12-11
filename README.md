@@ -2,26 +2,22 @@
 
 ---
 
-Ce Repo GitHub présente un guide complet mais simple pour réaliser le TP "Administrer Un Contrôleur De Domaine", étape par étape. Les instructions sont claires et détaillées, de manière à ce que tu puisses suivre sans problème.
+Ce Repo GitHub présente un guide complet mais simple pour installer rapidement et simplement un Windows 11 Server
 
 ---
 
 ## ` 📑 `︲Sommaire
 
-1. [` 📘 `︲Introduction](#introduction)
-   - [` ❔ `︲Contexte et objectifs du TP](#contexte-et-objectifs-du-tp)
-   - [` 🖥️ `︲Présentation de l'architecture réseau et des outils utilisés](#presentation-de-larchitecture-reseau-et-des-outils-utilises)
-
-2. [` 🛠️ `︲Préparation de l'environnement](#preparation-de-lenvironnement)
+1. [` 🛠️ `︲Préparation de l'environnement](#preparation-de-lenvironnement)
    - [` 💿 `︲Installation de Windows 11 (client)](#installation-de-windows)
    - [` 💿 `︲Installation de Windows Server 2025 (serveur)](#installation-de-windows-server)
 
-3. [` 🏛️ `︲Installation et configuration du contrôleur de domaine](#installation-et-configuration-du-controleur-de-domaine)
+2. [` 🏛️ `︲Installation et configuration du contrôleur de domaine](#installation-et-configuration-du-controleur-de-domaine)
    - [` 🔧 `︲Installation des rôles AD DS et DNS](#installation-roles-ad-ds-et-dns)
    - [` 🌐 `︲Promotion du serveur et création du domaine descartesbleu.org](#promotion-du-serveur-et-creation-du-domaine)
 
-4. [` ✅ `︲Conclusion et Annexes](#conclusion)
-5. [`🧰`︲Outils et Ressources utilisés pour la création de cette documentation.](#outils-et-ressources)
+3. [` ✅ `︲Conclusion et Annexes](#conclusion)
+4. [`🧰`︲Outils et Ressources utilisés pour la création de cette documentation.](#outils-et-ressources)
 
 ---
 
