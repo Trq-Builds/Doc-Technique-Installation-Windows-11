@@ -40,7 +40,7 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
    - [` 🚫 `︲Désactivation des options inutiles (télémétrie, suggestions, pubs).](#désactivation-des-options-inutiles)
    - [` 🔐 `︲Vérification du compte & options de sécurité.](#vérification-du-compte--options-de-sécurité)
 
-7. [` ✅ `︲Conclusion et Annexes.](#conclusion-et-annexes)
+7. [` ✅ `︲Conclusion & Annexes.](#conclusion-et-annexes)
 
 8. [` 🧰 `︲Outils & Ressources utilisés.](#outils--ressources-utilisés)
 
