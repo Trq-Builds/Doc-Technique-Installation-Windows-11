@@ -6,7 +6,7 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ---
 
-## ` 📑 `︲Sommaire
+## ` 📑 `︲Sommaire (cliquez pour accéder directement à la section souhaitée)
 
 1. [` 🟦 `︲Introduction](#introduction)
    - [` 🎯 `︲Objectifs du TP](#objectifs-du-tp)
