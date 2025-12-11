@@ -8,46 +8,46 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ## ` 📑 `︲Sommaire (cliquez pour accéder directement à la section souhaitée)
 
-1. [` 🟦 `︲Introduction.](#-︲introduction)
-   - [` 🎯 `︲Objectifs du TP.](#-︲objectifs-du-tp)
-   - [` 🧰 `︲Prérequis & outils nécessaires.](#-︲prérequis--outils-nécessaires)
+1. [` 🟦 `︲Introduction.](#introduction)
+   - [` 🎯 `︲Objectifs du TP.](#objectifs-du-tp)
+   - [` 🧰 `︲Prérequis & outils nécessaires.](#prérequis--outils-nécessaires)
 
-2. [` 💾 `︲Téléchargement & Préparation des fichiers.](#-︲téléchargement--préparation-des-fichiers)
-   - [` 🌐 `︲Téléchargement officiel de l'ISO Windows 11.](#-︲téléchargement-officiel-de-liso-windows-11)
-   - [` 🧲 `︲Vérification de l'intégrité de l'ISO (SHA256).](#-︲vérification-de-lintégrité-de-liso-sha256)
-   - [` 🗂️ `︲Organisation des fichiers pour la VM.](#️-︲organisation-des-fichiers-pour-la-vm)
+2. [` 💾 `︲Téléchargement & Préparation des fichiers.](#téléchargement--préparation-des-fichiers)
+   - [` 🌐 `︲Téléchargement officiel de l'ISO Windows 11.](#téléchargement-officiel-de-liso-windows-11)
+   - [` 🧲 `︲Vérification de l'intégrité de l'ISO (SHA256).](#vérification-de-lintégrité-de-liso-sha256)
+   - [` 🗂️ `︲Organisation des fichiers pour la VM.](#organisation-des-fichiers-pour-la-vm)
 
-3. [` 🛠️ `︲Configuration de la machine virtuelle.](#️-︲configuration-de-la-machine-virtuelle)
-   - [` ⚙️ `︲Paramètres matériels : RAM, CPU, Disque.](#️-︲paramètres-matériels--ram-cpu-disque)
-   - [` 🧩 `︲Configuration réseau : DHCP / NAT / Bridge.](#-︲configuration-réseau--dhcp--nat--bridge)
-   - [` 📎 `︲Ajout de l'ISO dans le lecteur virtuel.](#-︲ajout-de-liso-dans-le-lecteur-virtuel)
-   - [` 🛡️ `︲Paramètres UEFI / Secure Boot / TPM virtuel.](#️-︲paramètres-uefi--secure-boot--tpm-virtuel)
+3. [` 🛠️ `︲Configuration de la machine virtuelle.](#configuration-de-la-machine-virtuelle)
+   - [` ⚙️ `︲Paramètres matériels : RAM, CPU, Disque.](#paramètres-matériels--ram-cpu-disque)
+   - [` 🧩 `︲Configuration réseau : DHCP / NAT / Bridge.](#configuration-réseau--dhcp--nat--bridge)
+   - [` 📎 `︲Ajout de l'ISO dans le lecteur virtuel.](#ajout-de-liso-dans-le-lecteur-virtuel)
+   - [` 🛡️ `︲Paramètres UEFI / Secure Boot / TPM virtuel.](#paramètres-uefi--secure-boot--tpm-virtuel)
 
-4. [` 💿 `︲Installation de Windows 11.](#-︲installation-de-windows-11)
-   - [` 🌍 `︲Choix de la langue, région & clavier.](#-︲choix-de-la-langue-région--clavier)
-   - [` 🧱 `︲Partitionnement du disque virtuel.](#-︲partitionnement-du-disque-virtuel)
-   - [` 🚀 `︲Lancement de l'installation.](#-︲lancement-de-linstallation)
+4. [` 💿 `︲Installation de Windows 11.](#installation-de-windows-11)
+   - [` 🌍 `︲Choix de la langue, région & clavier.](#choix-de-la-langue-région--clavier)
+   - [` 🧱 `︲Partitionnement du disque virtuel.](#partitionnement-du-disque-virtuel)
+   - [` 🚀 `︲Lancement de l'installation.](#lancement-de-linstallation)
 
-5. [` 👤 `︲Configuration OOBE (Out-of-Box Experience).](#-︲configuration-oobe-out-of-box-experience)
-   - [` 👤 `︲Création du compte utilisateur local.](#-︲création-du-compte-utilisateur-local)
-   - [` 🔐 `︲Mot de passe & questions de sécurité.](#-︲mot-de-passe--questions-de-sécurité)
-   - [` 🌐 `︲Connexion / Non-connexion à Internet.](#-︲connexion--non-connexion-à-internet)
-   - [` 📊 `︲Confidentialité & Paramètres optionnels.](#-︲confidentialité--paramètres-optionnels)
-   - [` 🎛️ `︲Paramètres OOBE avancés (optionnel).](#️-︲paramètres-oobe-avancés-optionnel)
+5. [` 👤 `︲Configuration OOBE (Out-of-Box Experience).](#configuration-oobe-out-of-box-experience)
+   - [` 👤 `︲Création du compte utilisateur local.](#création-du-compte-utilisateur-local)
+   - [` 🔐 `︲Mot de passe & questions de sécurité.](#mot-de-passe--questions-de-sécurité)
+   - [` 🌐 `︲Connexion / Non-connexion à Internet.](#connexion--non-connexion-à-internet)
+   - [` 📊 `︲Confidentialité & Paramètres optionnels.](#confidentialité--paramètres-optionnels)
+   - [` 🎛️ `︲Paramètres OOBE avancés (optionnel).](#paramètres-oobe-avancés-optionnel)
 
-6. [` 🧼 `︲Post-Installation Immédiate (VM).](#-︲post-installation-immédiate-vm)
-   - [` 🔄 `︲Mise à jour Windows Update.](#-︲mise-à-jour-windows-update)
-   - [` 🧩 `︲Installation des VMware Tools / Additions virtuelles.](#-︲installation-des-vmware-tools--additions-virtuelles)
-   - [` 🚫 `︲Désactivation des options inutiles (télémétrie, suggestions, pubs).](#-︲désactivation-des-options-inutiles-télémétrie-suggestions-pubs)
-   - [` 🔐 `︲Vérification du compte & options de sécurité.](#-︲vérification-du-compte--options-de-sécurité-1)
+6. [` 🧼 `︲Post-Installation Immédiate (VM).](#post-installation-immédiate-vm)
+   - [` 🔄 `︲Mise à jour Windows Update.](#mise-à-jour-windows-update)
+   - [` 🧩 `︲Installation des VMware Tools / Additions virtuelles.](#installation-des-vmware-tools--additions-virtuelles)
+   - [` 🚫 `︲Désactivation des options inutiles (télémétrie, suggestions, pubs).](#désactivation-des-options-inutiles)
+   - [` 🔐 `︲Vérification du compte & options de sécurité.](#vérification-du-compte--options-de-sécurité)
 
-7. [` 📝 `︲Validation du TP.](#-︲validation-du-tp)
-   - [` ✔️ `︲Objectifs atteints.](#️-︲objectifs-atteints)
-   - [` 📸 `︲Captures obligatoires.](#-︲captures-obligatoires)
+7. [` 📝 `︲Validation du TP.](#validation-du-tp)
+   - [` ✔️ `︲Objectifs atteints.](#objectifs-atteints)
+   - [` 📸 `︲Captures obligatoires.](#captures-obligatoires)
 
-8. [` ✅ `︲Conclusion et Annexes.](#-︲conclusion-et-annexes)
+8. [` ✅ `︲Conclusion et Annexes.](#conclusion-et-annexes)
 
-9. [` 🧰 `︲Outils & Ressources utilisés.](#-︲outils--ressources-utilisés)
+9. [` 🧰 `︲Outils & Ressources utilisés.](#outils--ressources-utilisés)
 
 ---
 
@@ -78,11 +78,17 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ---
 
+<a id="introduction"></a>
+
 ## ` 🟦 `︲Introduction
+
+<a id="objectifs-du-tp"></a>
 
 ### ` 🎯 `︲Objectifs du TP
 
 *(sections à compléter)*
+
+<a id="prérequis--outils-nécessaires"></a>
 
 ### ` 🧰 `︲Prérequis & outils nécessaires
 
@@ -95,15 +101,23 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ---
 
+<a id="téléchargement--préparation-des-fichiers"></a>
+
 ## ` 💾 `︲Téléchargement & Préparation des fichiers
+
+<a id="téléchargement-officiel-de-liso-windows-11"></a>
 
 ### ` 🌐 `︲Téléchargement officiel de l'ISO Windows 11
 
 *(sections à compléter)*
 
+<a id="vérification-de-lintégrité-de-liso-sha256"></a>
+
 ### ` 🧲 `︲Vérification de l'intégrité de l'ISO (SHA256)
 
 *(sections à compléter)*
+
+<a id="organisation-des-fichiers-pour-la-vm"></a>
 
 ### ` 🗂️ `︲Organisation des fichiers pour la VM
 
@@ -111,7 +125,11 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ---
 
+<a id="configuration-de-la-machine-virtuelle"></a>
+
 ## ` 🛠️ `︲Configuration de la machine virtuelle
+
+<a id="paramètres-matériels--ram-cpu-disque"></a>
 
 ### ` ⚙️ `︲Paramètres matériels : RAM, CPU, Disque
 
@@ -133,13 +151,19 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 </details>
 
+<a id="configuration-réseau--dhcp--nat--bridge"></a>
+
 ### ` 🧩 `︲Configuration réseau : DHCP / NAT / Bridge
 
 *(sections à compléter)*
 
+<a id="ajout-de-liso-dans-le-lecteur-virtuel"></a>
+
 ### ` 📎 `︲Ajout de l'ISO dans le lecteur virtuel
 
 *(sections à compléter)*
+
+<a id="paramètres-uefi--secure-boot--tpm-virtuel"></a>
 
 ### ` 🛡️ `︲Paramètres UEFI / Secure Boot / TPM virtuel
 
@@ -147,7 +171,11 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ---
 
+<a id="installation-de-windows-11"></a>
+
 ## ` 💿 `︲Installation de Windows 11
+
+<a id="choix-de-la-langue-région--clavier"></a>
 
 ### ` 🌍 `︲Choix de la langue, région & clavier
 
@@ -172,9 +200,13 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 </details>
 
+<a id="partitionnement-du-disque-virtuel"></a>
+
 ### ` 🧱 `︲Partitionnement du disque virtuel
 
 *(sections à compléter)*
+
+<a id="lancement-de-linstallation"></a>
 
 ### ` 🚀 `︲Lancement de l'installation
 
@@ -182,7 +214,11 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ---
 
+<a id="configuration-oobe-out-of-box-experience"></a>
+
 ## ` 👤 `︲Configuration OOBE (Out-of-Box Experience)
+
+<a id="création-du-compte-utilisateur-local"></a>
 
 ### ` 👤 `︲Création du compte utilisateur local
 
@@ -208,17 +244,25 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 </details>
 
+<a id="mot-de-passe--questions-de-sécurité"></a>
+
 ### ` 🔐 `︲Mot de passe & questions de sécurité
 
 *(sections à compléter)*
+
+<a id="connexion--non-connexion-à-internet"></a>
 
 ### ` 🌐 `︲Connexion / Non-connexion à Internet
 
 *(sections à compléter)*
 
+<a id="confidentialité--paramètres-optionnels"></a>
+
 ### ` 📊 `︲Confidentialité & Paramètres optionnels
 
 *(sections à compléter)*
+
+<a id="paramètres-oobe-avancés-optionnel"></a>
 
 ### ` 🎛️ `︲Paramètres OOBE avancés (optionnel)
 
@@ -235,19 +279,29 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ---
 
+<a id="post-installation-immédiate-vm"></a>
+
 ## ` 🧼 `︲Post-Installation Immédiate (VM)
+
+<a id="mise-à-jour-windows-update"></a>
 
 ### ` 🔄 `︲Mise à jour Windows Update
 
 *(sections à compléter)*
 
+<a id="installation-des-vmware-tools--additions-virtuelles"></a>
+
 ### ` 🧩 `︲Installation des VMware Tools / Additions virtuelles
 
 *(sections à compléter)*
 
+<a id="désactivation-des-options-inutiles"></a>
+
 ### ` 🚫 `︲Désactivation des options inutiles (télémétrie, suggestions, pubs)
 
 *(sections à compléter)*
+
+<a id="vérification-du-compte--options-de-sécurité"></a>
 
 ### ` 🔐 `︲Vérification du compte & options de sécurité
 
@@ -255,11 +309,17 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ---
 
+<a id="validation-du-tp"></a>
+
 ## ` 📝 `︲Validation du TP
+
+<a id="objectifs-atteints"></a>
 
 ### ` ✔️ `︲Objectifs atteints
 
 *(sections à compléter)*
+
+<a id="captures-obligatoires"></a>
 
 ### ` 📸 `︲Captures obligatoires
 
@@ -267,11 +327,15 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ---
 
+<a id="conclusion-et-annexes"></a>
+
 ## ` ✅ `︲Conclusion et Annexes
 
 *(sections à compléter)*
 
 ---
+
+<a id="outils--ressources-utilisés"></a>
 
 ## ` 🧰 `︲Outils & Ressources utilisés
 
