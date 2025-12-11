@@ -342,7 +342,9 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 * ` 🌐 `︲Liens annexes :  
   * X [`🌐`]()  
   * X [`🌐`]()  
-  * X [`🌐`]()  
+  * X [`🌐`]()
+  * X [`🌐`]()
+  * X [`🌐`]()
 
 ---
 
