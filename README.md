@@ -81,12 +81,6 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ## ` 🟦 `︲Introduction
 
-<a id="objectifs-du-tp"></a>
-
-### ` 🎯 `︲Objectifs du TP
-
-*(sections à compléter)*
-
 <a id="prérequis--outils-nécessaires"></a>
 
 ### ` 🧰 `︲Prérequis & outils nécessaires
