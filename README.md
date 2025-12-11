@@ -46,17 +46,6 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ---
 
-> [!NOTE]
-> Cette documentation couvre **100% du cycle d'installation** d'un Windows 11 en machine virtuelle :
-> - Téléchargement de l'ISO  
-> - Configuration de la VM  
-> - Installation complète de l'OS  
-> - Passage OOBE  
-> - Post-installation immédiate  
-> - Vérifications finales
-
----
-
 > [!IMPORTANT]
 > * **Les captures d’écran seront ajoutées progressivement !**
 > * **Si une image est peu lisible dans le menu, il suffit de cliquer dessus. L'image s'ouvrira dans un nouvel onglet, vous permettant ainsi de la consulter en taille réelle et d'utiliser la fonction zoom !**
@@ -83,6 +72,15 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 > - `👤`︲**Interface Chaise-Clavier**
 > 
 > - `☕`︲**Patience**
+
+> [!NOTE]
+> Cette documentation couvre **100% du cycle d'installation** d'un Windows 11 en machine virtuelle :
+> - Téléchargement de l'ISO  
+> - Configuration de la VM  
+> - Installation complète de l'OS  
+> - Passage OOBE  
+> - Post-installation immédiate  
+> - Vérifications finales
 
 ---
 
