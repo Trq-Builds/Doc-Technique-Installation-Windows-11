@@ -9,7 +9,6 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 ## ` 📑 `︲Sommaire (cliquez pour accéder directement à la section souhaitée)
 
 1. [` 🟦 `︲Introduction.](#introduction)
-   - [` 🎯 `︲Objectifs du TP.](#objectifs-du-tp)
    - [` 🧰 `︲Prérequis & outils nécessaires.](#prérequis--outils-nécessaires)
 
 2. [` 💾 `︲Téléchargement & Préparation des fichiers.](#téléchargement--préparation-des-fichiers)
