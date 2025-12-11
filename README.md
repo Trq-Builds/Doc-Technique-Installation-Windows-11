@@ -30,9 +30,12 @@
 
 <a id="presentation-de-larchitecture-reseau-et-des-outils-utilises"></a>
 > [!IMPORTANT]
-> Présentation de l'architecture réseau et des outils utilisés :
-> * `🖥️`︲**Client :** Windows 11
-> * `🔧`︲**Outils :** VMware
+> **Présentation des outils et prérequis :**
+> - `🖥️`︲**Client :** Windows 11
+> - `🔧`︲**Outils :** VMware
+> - ` 📦 `︲**VMWare :** ︲[`🌐`](https://www.vmware.com/)
+> - ` 👤 `︲**Interface Chaise-Clavier fonctionnelle.**
+> - ` ☕ `︲**Un peu de patience !**
 
 ---
 
