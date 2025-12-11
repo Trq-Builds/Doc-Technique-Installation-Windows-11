@@ -36,23 +36,25 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ---
 
-<a id="preparation-de-lenvironnement"></a>
-## `🛠️`︲Préparation de l'environnement
+> [!IMPORTANT]
+> * **Les captures d’écran seront ajoutées progressivement !**
+> * **Si une image est peu lisible dans le menu, il suffit de cliquer dessus. L'image s'ouvrira dans un nouvel onglet, vous permettant ainsi de la consulter en taille réelle et d'utiliser la fonction zoom !**
+
+> [!TIP]
+> - **Pour afficher les captures d’écran, clique sur le menu déroulant avec l’émoji : `  📸  `.**
+> - **Le menu s’ouvrira et affichera la ou les captures d’écran !**
 
 ---
 
-<a id="installation-de-windows"></a>
-### `💿`︲Installation de Windows 11 (client)
+` ⚙️ `︲**Configuration de la VM.**
 
----
+* ` 📡 ` ︲**Adressage IP :** dynamique (DHCP) récupérer une adresse sur le réseau local physique.
 
-> [!WARNING]
-> Prendre un snapshot de la VM après validation de cette configuration.
+* ` 📏 ` ︲**Mémoire :** `4096 Mo`.
 
-1️⃣︲**Configuration de la VM**  
-   - **Disque :** 80 Go  
-   - **RAM :** 4 Go  
-   - **CPU :** 2 cœurs  
+* ` 💾 ` ︲**Disque :** `80Go` (allocation dynamique).
+
+* ` ❤️ ` ︲**Cœurs :** `2`.
 
 <details>
   <summary>📸︲Configuration initiale (VMware)</summary>
@@ -63,9 +65,10 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 Sur cette capture, on peut voir la **configuration de la mémoire de la VM sous VMware**.  
 Il faut régler la mémoire à **4096 Mo (4 Go)**, soit en utilisant le curseur, soit en entrant la valeur manuellement.  
-Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configuration.
+Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configuration !
 
 ---
+
 </details>
 
 ---
@@ -354,19 +357,18 @@ Une fois terminée, il sera nécessaire de redémarrer le serveur pour appliquer
 
 ---
 
-## ` ✅ `︲Conclusion et Annexes
+## ` ✅ `︲Conclusion et Annexes :
 
 * d’un **client Windows 11 prêt à joindre un domaine**
 * d’un environnement propre, reproductible et exploitable pour la suite (GPO, comptes, stratégies, automatisations).
 
 ---
 
-## `🧰`︲Outils et Ressources utilisés pour la création de cette documentation.
+## `🧰`︲Outils et Ressources utilisés pour la création de cette documentation :
 
 ---
 
 * ` 🌐 ` **︲/Liens d’annexes :**
-  * ` 📂 ` ︲`X`.`pdf`
   
   * ` 🌐 ` ︲`X`︲[`🌐`]()
   
