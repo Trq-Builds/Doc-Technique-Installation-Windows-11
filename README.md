@@ -120,7 +120,7 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ### ` ⚙️ `︲Paramètres matériels : RAM, CPU, Disque
 
-* ` 📡 `︲Adressage IP : `DHCP`
+* ` 📡 `︲Adressage IP : **`DHCP`**
   
 * ` 📏 `︲Mémoire : **`4096Mo`**
   
