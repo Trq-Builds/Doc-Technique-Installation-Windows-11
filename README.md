@@ -165,7 +165,7 @@ Get-FileHash .\Win11_x64.iso -Algorithm SHA256
 
 Avant de créer la machine virtuelle, il est recommandé d’organiser proprement les fichiers liés au projet afin de faciliter la gestion, la maintenance et d’éventuels dépannages.
 
-#### Arborescence recommandée
+Arborescence recommandée :
 
 Créer un dossier dédié à la VM, par exemple :
 
@@ -179,7 +179,7 @@ VM-Windows11/
     └── (captures, notes, exports éventuels)
 ```
 
-#### Bonnes pratiques
+Bonnes pratiques :
 
 * Placer l’ISO **dans un sous-dossier dédié** (`ISO/`) afin d’éviter toute confusion avec d’autres images disque.
 * Conserver **tous les fichiers de la VM** (disque virtuel, configuration, snapshots) dans un même répertoire.
@@ -302,7 +302,33 @@ Procédure générale (VMware)
 <a id="paramètres-uefi--secure-boot--tpm-virtuel"></a>
 ### ` 🛡️ `︲Paramètres UEFI / Secure Boot / TPM virtuel
 
-*(sections à compléter)*
+---
+
+Windows 11 impose des **pré-requis matériels spécifiques**. En environnement virtualisé, ceux-ci doivent être **explicitement activés** pour garantir la compatibilité et éviter tout blocage lors de l’installation.
+
+#### Paramètres requis
+
+* **Firmware :** `UEFI`
+* **Secure Boot :** `Activé`
+* **TPM :** `TPM virtuel (vTPM)`
+
+#### Configuration dans VMware
+
+1. Ouvrir les **paramètres avancés** de la machine virtuelle.
+2. Vérifier que le mode de démarrage est configuré sur **UEFI**.
+3. Activer le **Secure Boot**.
+4. Ajouter ou activer un **TPM virtuel** :
+
+   * Une **clé de chiffrement** peut être générée automatiquement par VMware.
+
+> [!IMPORTANT]
+>
+> * Sans **UEFI + Secure Boot + TPM**, l’installateur Windows 11 refusera l’installation.
+> * Le TPM virtuel est requis même en machine virtuelle.
+
+> [!NOTE]
+> Ces paramètres doivent être configurés **avant le premier démarrage** de la VM.
+> Toute modification après coup peut nécessiter une recréation de la machine virtuelle.
 
 ---
 
