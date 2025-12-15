@@ -225,13 +225,52 @@ VM-Windows11/
 </details>
 
 <a id="configuration-réseau--dhcp--nat--bridge"></a>
-
 ### ` 🧩 `︲Configuration réseau : DHCP / NAT / Bridge
 
-*(sections à compléter)*
+---
+
+La configuration réseau de la machine virtuelle détermine **son accès à Internet** et **sa visibilité sur le réseau local**. Pour une installation standard et sans friction, le mode **NAT avec DHCP** est recommandé.
+
+Modes réseau disponibles :
+
+* **NAT (recommandé)**
+
+  * La VM accède à Internet via l’hôte
+  * Attribution automatique d’une adresse IP (**DHCP**)
+  * Aucune exposition directe sur le réseau local
+  * Stable, simple, efficace
+
+* **Bridge (pont réseau)**
+
+  * La VM apparaît comme une machine à part entière sur le réseau
+  * IP attribuée par le routeur
+  * À réserver aux besoins spécifiques (tests réseau, serveurs, etc.)
+
+* **Host-only / Réseau interne**
+
+  * Communication limitée entre l’hôte et la VM
+  * Pas d’accès Internet par défaut
+  * Non recommandé pour une installation initiale
+
+#### Configuration conseillée
+
+* **Type de connexion :** `NAT`
+* **Adressage IP :** `DHCP`
+* **Aucune configuration manuelle requise**
+
+> [!IMPORTANT]
+> Le mode **NAT + DHCP** garantit :
+>
+> * Une connexion Internet immédiate
+> * Le bon déroulement de l’OOBE
+> * L’accès aux mises à jour Windows
+
+> [!NOTE]
+> Le mode Bridge peut être activé ultérieurement si un accès réseau avancé est nécessaire.
+
+---
 
 <a id="ajout-de-liso-dans-le-lecteur-virtuel"></a>
-
 ### ` 📎 `︲Ajout de l'ISO dans le lecteur virtuel
 
 *(sections à compléter)*
