@@ -458,19 +458,105 @@ Une fois cette étape terminée, Windows 11 bascule automatiquement vers la **ph
 
 ### ` 🔐 `︲Mot de passe & questions de sécurité
 
-*(sections à compléter)*
+---
+
+Lors de la configuration du compte local, Windows propose d’ajouter un **mot de passe et des questions de sécurité** afin de sécuriser l’accès à la machine.
+
+Recommandations :
+
+1. **Mot de passe :**
+
+   * Choisir un mot de passe **sûr mais mémorisable**.
+   * Exemple : combiner **majuscules, minuscules, chiffres et symboles**.
+   * Pour un environnement pédagogique ou test VM, un mot de passe simple peut suffire (ex : `btssio`).
+
+2. **Questions de sécurité :**
+
+   * Choisir 3 questions avec réponses faciles à retenir.
+   * Ces réponses permettent de **réinitialiser le mot de passe** en cas d’oubli.
+
+> [!IMPORTANT]
+>
+> * Les questions de sécurité sont **uniques à chaque compte**.
+> * Même en VM, configurer un mot de passe protège l’accès aux fichiers virtuels.
+
+> [!NOTE]
+> Pour une VM de test isolée, ces paramètres peuvent être minimisés, mais il est conseillé de **simuler un environnement réaliste** pour se familiariser avec les bonnes pratiques Windows.
+
+---
 
 <a id="connexion--non-connexion-à-internet"></a>
-
 ### ` 🌐 `︲Connexion / Non-connexion à Internet
 
-*(sections à compléter)*
+---
+
+Pendant l’OOBE, Windows propose de **se connecter à Internet** pour configurer le compte Microsoft et télécharger les mises à jour.
+
+Options possibles :
+
+1. **Connexion à Internet (recommandée)**
+
+   * Permet de :
+
+     * Synchroniser le compte Microsoft
+     * Télécharger les dernières mises à jour
+     * Activer la licence si nécessaire
+   * Idéal pour un usage standard ou tests complets.
+
+2. **Non-connexion / Compte local**
+
+   * Permet de créer un **compte utilisateur local** isolé
+   * Recommandé pour :
+
+     * Environnements de test
+     * Déploiement en VM éducative ou sandbox
+   * Les mises à jour devront être appliquées manuellement après configuration.
+
+> [!IMPORTANT]
+>
+> * Pour une VM de test ou formation, l’option **Compte local** garantit une **indépendance totale de l’OS** vis-à-vis de l’internet et des services Microsoft.
+> * Pour un usage réel ou production, **connexion Internet** reste la norme.
+
+> [!NOTE]
+> La décision choisie ici **n’empêche pas** de connecter la VM à Internet plus tard si nécessaire.
+
+---
+
 
 <a id="confidentialité--paramètres-optionnels"></a>
-
 ### ` 📊 `︲Confidentialité & Paramètres optionnels
 
-*(sections à compléter)*
+---
+
+Windows 11 propose une série de **paramètres de confidentialité et options supplémentaires** pendant l’OOBE. Ils permettent de contrôler la **télémétrie, localisation, suggestions et expériences personnalisées**.
+
+#### Paramètres recommandés pour une VM ou test
+
+1. **Diagnostics et données de diagnostic**
+
+   * Sélectionner **Basique** pour limiter la collecte d’informations.
+2. **Localisation**
+
+   * Désactiver si la VM n’a pas besoin de services de localisation.
+3. **Publicité et recommandations**
+
+   * Désactiver les **publicités personnalisées**.
+4. **Expériences en ligne**
+
+   * Décocher les options comme **Suggestions et expériences basées sur l’utilisation**.
+
+> [!IMPORTANT]
+>
+> * Ajuster ces paramètres **en fonction de l’usage prévu** : test, formation ou usage personnel.
+> * Même dans une VM isolée, **réduire la télémétrie** améliore la confidentialité et la performance.
+
+> [!NOTE]
+> Ces paramètres peuvent être modifiés ultérieurement via :
+>
+> * **Paramètres → Confidentialité et sécurité**
+> * **Paramètres avancés OOBE** si activés
+
+---
 
 <a id="paramètres-oobe-avancés-optionnel"></a>
 
@@ -490,17 +576,37 @@ Une fois cette étape terminée, Windows 11 bascule automatiquement vers la **ph
 ---
 
 <a id="post-installation-immédiate-vm"></a>
-
 ## ` 🧼 `︲Post-Installation Immédiate (VM)
 
-<a id="mise-à-jour-windows-update"></a>
+---
 
+<a id="mise-à-jour-windows-update"></a>
 ### ` 🔄 `︲Mise à jour Windows Update
 
-*(sections à compléter)*
+---
+
+Après l’installation initiale, il est **primordial de mettre à jour Windows 11** pour bénéficier des derniers correctifs, pilotes et améliorations de sécurité.
+
+Procédure :
+
+1. Ouvrir **Paramètres → Windows Update**.
+2. Cliquer sur **Rechercher les mises à jour**.
+3. Laisser Windows télécharger et installer toutes les mises à jour disponibles.
+4. Redémarrer la VM si nécessaire.
+
+> [!IMPORTANT]
+>
+> * Ne pas interrompre les mises à jour pour éviter **des erreurs système**.
+> * Vérifier que **l’horloge et la connexion Internet** sont correctement configurées avant de lancer Update.
+
+> [!NOTE]
+>
+> * Une VM fraîchement installée peut nécessiter plusieurs cycles de mise à jour.
+> * Pour accélérer les tests, les mises à jour peuvent être planifiées ou appliquées via **WSUS / ISO cumulatif** dans des environnements plus avancés.
+
+---
 
 <a id="installation-des-vmware-tools--additions-virtuelles"></a>
-
 ### ` 🧩 `︲Installation des VMware Tools / Additions virtuelles
 
 *(sections à compléter)*
