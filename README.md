@@ -96,7 +96,33 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 
 ### ` 🌐 `︲Téléchargement officiel de l'ISO Windows 11
 
-*(sections à compléter)*
+---
+
+Pour garantir une installation **fiable, sécurisée et conforme**, il est impératif d’utiliser **exclusivement l’ISO officielle fournie par Microsoft**.
+
+1. Se rendre sur le site officiel de Microsoft dédié au téléchargement de Windows 11.
+2. Dans la section **“Télécharger l’image disque (ISO) de Windows 11”**, sélectionner :
+
+   * **Édition :** *Windows 11 (multi-édition)*
+3. Cliquer sur **Télécharger** puis choisir :
+
+   * **Langue du produit :** *Français*
+4. Valider et lancer le téléchargement du fichier **ISO**.
+
+> [!IMPORTANT]
+>
+> * Le fichier téléchargé est une **image disque complète** contenant l’ensemble des composants nécessaires à l’installation de Windows 11.
+> * La taille de l’ISO est généralement comprise entre **5 et 6 Go** selon la version !
+
+> [!NOTE]
+> Le téléchargement peut prendre plusieurs minutes selon la vitesse de la connexion Internet.
+
+---
+
+🛑 **Ne pas extraire l’ISO**
+L’image disque doit être **conservée telle quelle**. Elle sera montée directement dans la machine virtuelle lors des étapes suivantes.
+
+---
 
 <a id="vérification-de-lintégrité-de-liso-sha256"></a>
 
