@@ -59,7 +59,6 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 ---
 
 <a id="introduction"></a>
-
 ## ` 🟦 `︲Introduction
 
 <a id="prérequis--outils-nécessaires"></a>
@@ -333,11 +332,9 @@ Windows 11 impose des **pré-requis matériels spécifiques**. En environnement 
 ---
 
 <a id="installation-de-windows-11"></a>
-
 ## ` 💿 `︲Installation de Windows 11
 
 <a id="choix-de-la-langue-région--clavier"></a>
-
 ### ` 🌍 `︲Choix de la langue, région & clavier
 
 - Sélectionner langue, clavier et région
@@ -362,7 +359,6 @@ Windows 11 impose des **pré-requis matériels spécifiques**. En environnement 
 </details>
 
 <a id="partitionnement-du-disque-virtuel"></a>
-
 ### ` 🧱 `︲Partitionnement du disque virtuel
 
 ---
@@ -425,11 +421,9 @@ Une fois cette étape terminée, Windows 11 bascule automatiquement vers la **ph
 ---
 
 <a id="configuration-oobe-out-of-box-experience"></a>
-
 ## ` 👤 `︲Configuration OOBE (Out-of-Box Experience)
 
 <a id="création-du-compte-utilisateur-local"></a>
-
 ### ` 👤 `︲Création du compte utilisateur local
 
 - **Nom :** `btssio`  
@@ -455,7 +449,6 @@ Une fois cette étape terminée, Windows 11 bascule automatiquement vers la **ph
 </details>
 
 <a id="mot-de-passe--questions-de-sécurité"></a>
-
 ### ` 🔐 `︲Mot de passe & questions de sécurité
 
 ---
@@ -609,27 +602,120 @@ Procédure :
 <a id="installation-des-vmware-tools--additions-virtuelles"></a>
 ### ` 🧩 `︲Installation des VMware Tools / Additions virtuelles
 
-*(sections à compléter)*
+---
+
+Les **VMware Tools** (ou équivalent selon l’hyperviseur) sont essentiels pour optimiser la VM et activer des fonctionnalités avancées.
+
+Objectifs :
+
+* Activer le **glisser-déposer** et le **copier-coller** entre hôte et VM.
+* Optimiser les **performances graphiques et la résolution**.
+* Améliorer la **réactivité du système et la gestion des périphériques**.
+
+Procédure générale :
+
+1. Dans le menu VMware, sélectionner **Installer VMware Tools**.
+2. Monter le CD virtuel contenant l’installateur.
+3. Lancer le programme d’installation dans la VM.
+4. Suivre les étapes jusqu’à **redémarrage obligatoire**.
+
+> [!IMPORTANT]
+>
+> * L’installation des Tools est **indispensable** pour un usage fluide de la VM.
+> * Sans ces outils, certaines fonctions comme **résolution dynamique, intégration souris et raccourcis clavier** peuvent être limitées.
+
+> [!NOTE]
+> Les Additions virtuelles peuvent également inclure :
+>
+> * Pilotes réseau avancés
+> * Améliorations du son
+> * Support de périphériques USB
+
+---
 
 <a id="désactivation-des-options-inutiles"></a>
+### ` 🚫 `︲Désactivation des options inutiles (télémétrie, suggestions, pubs) (Optionnel)
 
-### ` 🚫 `︲Désactivation des options inutiles (télémétrie, suggestions, pubs)
+---
 
-*(sections à compléter)*
+Pour maximiser la **performance et la confidentialité** de la VM, certaines fonctionnalités Windows peuvent être désactivées immédiatement après l’installation.
+
+Paramètres recommandés : 
+
+1. **Télémétrie**
+
+   * Paramètres → Confidentialité → Diagnostics → **Basique**
+2. **Suggestions dans le menu Démarrer**
+
+   * Paramètres → Personnalisation → Accueil → **Désactiver “Afficher les suggestions occasionnelles”**
+3. **Publicités intégrées**
+
+   * Paramètres → Confidentialité → Général → **Désactiver “Autoriser les applications à utiliser l’ID publicitaire”**
+4. **Applications et services préinstallés inutiles**
+
+   * Désinstaller via **Paramètres → Applications → Applications et fonctionnalités**
+
+> [!IMPORTANT]
+>
+> * Ces optimisations réduisent la consommation de **ressources système** et limitent la collecte de données.
+> * Certaines options peuvent être réactivées ultérieurement si nécessaire.
+
+> [!NOTE]
+> Ces réglages sont particulièrement utiles dans une **VM de test ou pédagogique**, où la fluidité prime sur les fonctionnalités “consommateurs” intégrées par défaut.
+
+---
 
 <a id="vérification-du-compte--options-de-sécurité"></a>
-
 ### ` 🔐 `︲Vérification du compte & options de sécurité
 
-*(sections à compléter)*
+---
+
+Après la configuration initiale, il est crucial de **vérifier les comptes utilisateurs et les paramètres de sécurité** pour garantir un environnement stable et sécurisé.
+
+Étapes clés :
+
+1. **Vérification du compte utilisateur**
+
+   * Paramètres → Comptes → **Vos informations**
+   * Confirmer que le compte local ou Microsoft est actif.
+2. **Paramètres de sécurité**
+
+   * Paramètres → Mise à jour et sécurité → Sécurité Windows
+   * Activer :
+
+     * Protection en temps réel
+     * Pare-feu Windows
+     * Contrôle des applications et du navigateur
+3. **Options avancées**
+
+   * Configurer la récupération de mot de passe
+   * Vérifier que le TPM virtuel est reconnu et opérationnel
+
+> [!IMPORTANT]
+>
+> * Cette étape assure que la VM est **protégée dès le premier démarrage**.
+> * Vérifier ces paramètres est essentiel pour éviter les problèmes futurs ou la corruption de la VM.
+
+> [!NOTE]
+> Même dans un environnement de test, maintenir des **pratiques de sécurité** minimales permet de simuler un scénario réel et d’éviter les mauvaises surprises.
 
 ---
 
 <a id="conclusion-et-annexes"></a>
-
 ## ` ✅ `︲Conclusion et Annexes
 
-*(sections à compléter)*
+---
+
+Félicitations ! Vous avez désormais une **VM Windows 11 complète et opérationnelle**, prête pour vos tests ou vos déploiements pédagogiques.
+
+Récapitulatif : 
+
+* Téléchargement et vérification de l’ISO officiel
+* Organisation des fichiers et configuration réseau
+* Paramètres UEFI, Secure Boot et TPM virtuel activés
+* Installation complète et OOBE terminée
+* Post-installation optimisée : mise à jour, VMware Tools, désactivation des options inutiles
+* Vérification de la sécurité et des comptes utilisateurs
 
 ---
 
