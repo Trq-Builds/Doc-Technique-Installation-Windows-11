@@ -273,10 +273,33 @@ Modes réseau disponibles :
 <a id="ajout-de-liso-dans-le-lecteur-virtuel"></a>
 ### ` 📎 `︲Ajout de l'ISO dans le lecteur virtuel
 
-*(sections à compléter)*
+---
+
+Avant de démarrer la machine virtuelle, il est nécessaire de **monter l’ISO de Windows 11** dans le lecteur optique virtuel afin de permettre le démarrage sur le média d’installation.
+
+Procédure générale (VMware)
+
+1. Ouvrir les **paramètres de la machine virtuelle**.
+2. Sélectionner le périphérique **Lecteur CD/DVD**.
+3. Choisir l’option :
+
+   * **Utiliser un fichier image ISO**
+4. Parcourir l’arborescence et sélectionner l’ISO de Windows 11 précédemment téléchargé.
+5. Vérifier que l’option **“Connecté au démarrage”** est activée.
+6. Valider les paramètres.
+
+> [!IMPORTANT]
+>
+> * Sans ISO monté, la VM **ne pourra pas démarrer sur l’installateur Windows**.
+> * L’ISO doit rester accessible pendant **toute la phase d’installation**.
+
+> [!NOTE]
+> Une fois Windows installé, l’ISO pourra être **éjecté** afin d’accélérer les démarrages ultérieurs de la VM.
+
+---
+
 
 <a id="paramètres-uefi--secure-boot--tpm-virtuel"></a>
-
 ### ` 🛡️ `︲Paramètres UEFI / Secure Boot / TPM virtuel
 
 *(sections à compléter)*
