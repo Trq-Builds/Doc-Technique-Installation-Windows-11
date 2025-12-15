@@ -129,7 +129,7 @@ Après le téléchargement, il est **fortement recommandé** de vérifier l’in
 
 Cette vérification repose sur le calcul de l’empreinte **SHA256** du fichier ISO, puis sa comparaison avec la valeur officielle fournie par Microsoft.
 
-#### Méthode via PowerShell (Windows)
+Méthode via PowerShell (Windows)
 
 1. Ouvrir **PowerShell**.
 2. Se placer dans le dossier contenant l’ISO ou utiliser le chemin complet.
@@ -141,7 +141,7 @@ Get-FileHash .\Win11_x64.iso -Algorithm SHA256
 
 4. Noter la valeur retournée dans la colonne **Hash**.
 
-#### Comparaison
+Comparaison : 
 
 * Comparer l’empreinte obtenue avec le **SHA256 officiel** communiqué par Microsoft.
 * Si les deux valeurs sont **strictement identiques**, le fichier est **intègre et exploitable**.
@@ -251,7 +251,7 @@ Modes réseau disponibles :
   * Pas d’accès Internet par défaut
   * Non recommandé pour une installation initiale
 
-#### Configuration conseillée
+Configuration conseillée : 
 
 * **Type de connexion :** `NAT`
 * **Adressage IP :** `DHCP`
@@ -305,13 +305,13 @@ Procédure générale (VMware)
 
 Windows 11 impose des **pré-requis matériels spécifiques**. En environnement virtualisé, ceux-ci doivent être **explicitement activés** pour garantir la compatibilité et éviter tout blocage lors de l’installation.
 
-#### Paramètres requis
+Paramètres requis : 
 
 * **Firmware :** `UEFI`
 * **Secure Boot :** `Activé`
 * **TPM :** `TPM virtuel (vTPM)`
 
-#### Configuration dans VMware
+Configuration dans VMware : 
 
 1. Ouvrir les **paramètres avancés** de la machine virtuelle.
 2. Vérifier que le mode de démarrage est configuré sur **UEFI**.
@@ -523,7 +523,7 @@ Options possibles :
 
 Windows 11 propose une série de **paramètres de confidentialité et options supplémentaires** pendant l’OOBE. Ils permettent de contrôler la **télémétrie, localisation, suggestions et expériences personnalisées**.
 
-#### Paramètres recommandés pour une VM ou test
+Paramètres recommandés pour une VM ou test : 
 
 1. **Diagnostics et données de diagnostic**
 
