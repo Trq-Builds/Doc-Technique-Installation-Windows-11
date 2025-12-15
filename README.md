@@ -63,7 +63,6 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 ## ` 🟦 `︲Introduction
 
 <a id="prérequis--outils-nécessaires"></a>
-
 ### ` 🧰 `︲Prérequis & outils nécessaires
 
 > [!IMPORTANT]
@@ -89,11 +88,9 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 ---
 
 <a id="téléchargement--préparation-des-fichiers"></a>
-
 ## ` 💾 `︲Téléchargement & Préparation des fichiers
 
 <a id="téléchargement-officiel-de-liso-windows-11"></a>
-
 ### ` 🌐 `︲Téléchargement officiel de l'ISO Windows 11
 
 ---
@@ -125,7 +122,6 @@ L’image disque doit être **conservée telle quelle**. Elle sera montée direc
 ---
 
 <a id="vérification-de-lintégrité-de-liso-sha256"></a>
-
 ### ` 🧲 `︲Vérification de l'intégrité de l'ISO (SHA256) (Optionel)
 
 ---
@@ -163,19 +159,48 @@ Get-FileHash .\Win11_x64.iso -Algorithm SHA256
 
 
 <a id="organisation-des-fichiers-pour-la-vm"></a>
-
 ### ` 🗂️ `︲Organisation des fichiers pour la VM
 
-*(sections à compléter)*
+---
+
+Avant de créer la machine virtuelle, il est recommandé d’organiser proprement les fichiers liés au projet afin de faciliter la gestion, la maintenance et d’éventuels dépannages.
+
+#### Arborescence recommandée
+
+Créer un dossier dédié à la VM, par exemple :
+
+```text
+VM-Windows11/
+├── ISO/
+│   └── Win11_x64.iso
+├── VM/
+│   └── (fichiers de la machine virtuelle)
+└── Docs/
+    └── (captures, notes, exports éventuels)
+```
+
+#### Bonnes pratiques
+
+* Placer l’ISO **dans un sous-dossier dédié** (`ISO/`) afin d’éviter toute confusion avec d’autres images disque.
+* Conserver **tous les fichiers de la VM** (disque virtuel, configuration, snapshots) dans un même répertoire.
+* Éviter les chemins trop longs ou contenant des caractères spéciaux.
+
+> [!IMPORTANT]
+> Une organisation claire permet :
+>
+> * Une **suppression propre** de la VM si nécessaire
+> * Une **sauvegarde simplifiée**
+> * Une meilleure lisibilité lors de l’utilisation de plusieurs machines virtuelles
+
+> [!NOTE]
+> Cette structure est **indicative** et peut être adaptée selon les habitudes ou contraintes de l’utilisateur.
 
 ---
 
 <a id="configuration-de-la-machine-virtuelle"></a>
-
 ## ` 🛠️ `︲Configuration de la machine virtuelle
 
 <a id="paramètres-matériels--ram-cpu-disque"></a>
-
 ### ` ⚙️ `︲Paramètres matériels : RAM, CPU, Disque
 
 * ` 📡 `︲Adressage IP : **`DHCP`**
