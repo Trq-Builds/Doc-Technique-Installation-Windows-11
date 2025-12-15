@@ -63,12 +63,12 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 ## ` 🟦 `︲Introduction
 
 <a id="prérequis--outils-nécessaires"></a>
-### ` 🧰 `︲Prérequis & outils nécessaires
+### ` 🧰 `︲Prérequis & outils nécessaires :
 
 > [!IMPORTANT]
 > - `🌐`︲**ISO Windows 11**︲[`🌐`](https://www.microsoft.com/fr-fr/software-download/windows11)
 >   
-> - ` 📦 `︲**VMWare :** ︲[`🌐`](https://www.vmware.com/)
+> - ` 📦 `︲**VMWare** ︲[`🌐`](https://www.vmware.com/)
 >   
 > - `👤`︲**Interface Chaise-Clavier**
 > 
@@ -365,13 +365,62 @@ Windows 11 impose des **pré-requis matériels spécifiques**. En environnement 
 
 ### ` 🧱 `︲Partitionnement du disque virtuel
 
-*(sections à compléter)*
+---
+
+Lors de cette étape, Windows 11 doit être installé sur un **disque virtuel vierge**. Le partitionnement est géré automatiquement par l’installateur si aucun schéma personnalisé n’est requis.
+
+Procédure recommandée :
+
+1. À l’écran de sélection du disque, choisir le **disque virtuel principal**.
+2. Si le disque contient des partitions existantes :
+
+   * Les **supprimer intégralement** jusqu’à obtenir un espace **Non alloué**.
+3. Sélectionner l’espace non alloué.
+4. Cliquer sur **Suivant**.
+
+Windows crée automatiquement :
+
+* Partition système EFI
+* Partition MSR
+* Partition principale (Windows)
+* Partition de récupération
+
+> [!IMPORTANT]
+>
+> * **Ne pas créer manuellement** les partitions sauf besoin spécifique.
+> * Laisser Windows gérer le schéma garantit une compatibilité maximale avec UEFI.
+
+> [!NOTE]
+> Le disque virtuel étant dédié à la VM, **aucune donnée hôte n’est affectée** par cette opération.
+
+---
 
 <a id="lancement-de-linstallation"></a>
-
 ### ` 🚀 `︲Lancement de l'installation
 
-*(sections à compléter)*
+---
+
+Une fois le disque correctement sélectionné et validé, l’installation de Windows 11 peut être lancée. Cette phase est **entièrement automatisée** et ne nécessite aucune intervention immédiate.
+
+Déroulement :
+
+1. Cliquer sur **Suivant** pour démarrer l’installation.
+2. Les fichiers sont copiés sur le disque virtuel.
+3. Plusieurs **redémarrages automatiques** sont effectués.
+
+> [!IMPORTANT]
+>
+> * **Ne pas interrompre** la machine virtuelle durant cette phase.
+> * L’ISO doit rester monté jusqu’à la fin de l’installation.
+
+> [!NOTE]
+> La durée de l’installation dépend :
+>
+> * Des performances de l’hôte
+> * Du stockage utilisé
+> * Des ressources allouées à la VM
+
+Une fois cette étape terminée, Windows 11 bascule automatiquement vers la **phase OOBE !** (configuration initiale)
 
 ---
 
