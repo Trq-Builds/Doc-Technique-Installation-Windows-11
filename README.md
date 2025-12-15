@@ -126,9 +126,41 @@ L’image disque doit être **conservée telle quelle**. Elle sera montée direc
 
 <a id="vérification-de-lintégrité-de-liso-sha256"></a>
 
-### ` 🧲 `︲Vérification de l'intégrité de l'ISO (SHA256)
+### ` 🧲 `︲Vérification de l'intégrité de l'ISO (SHA256) (Optionel)
 
-*(sections à compléter)*
+---
+
+Après le téléchargement, il est **fortement recommandé** de vérifier l’intégrité de l’ISO afin de s’assurer que le fichier n’est **ni corrompu ni altéré**.
+
+Cette vérification repose sur le calcul de l’empreinte **SHA256** du fichier ISO, puis sa comparaison avec la valeur officielle fournie par Microsoft.
+
+#### Méthode via PowerShell (Windows)
+
+1. Ouvrir **PowerShell**.
+2. Se placer dans le dossier contenant l’ISO ou utiliser le chemin complet.
+3. Exécuter la commande suivante :
+
+```powershell
+Get-FileHash .\Win11_x64.iso -Algorithm SHA256
+```
+
+4. Noter la valeur retournée dans la colonne **Hash**.
+
+#### Comparaison
+
+* Comparer l’empreinte obtenue avec le **SHA256 officiel** communiqué par Microsoft.
+* Si les deux valeurs sont **strictement identiques**, le fichier est **intègre et exploitable**.
+
+> [!IMPORTANT]
+>
+> * **Une seule différence** dans le hash indique un fichier invalide.
+> * En cas de mismatch, **supprimer l’ISO** et le retélécharger.
+
+> [!NOTE]
+> Cette étape permet d’éviter des erreurs d’installation, des comportements instables ou des échecs lors du déploiement de la machine virtuelle.
+
+---
+
 
 <a id="organisation-des-fichiers-pour-la-vm"></a>
 
