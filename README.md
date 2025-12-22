@@ -11,10 +11,16 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 1. [` 🟦 `︲Introduction.](#introduction)
    - [` 🧰 `︲Prérequis & outils nécessaires.](#prérequis--outils-nécessaires)
 
+
+---
+
 2. [` 💾 `︲Téléchargement & Préparation des fichiers.](#téléchargement--préparation-des-fichiers)
    - [` 🌐 `︲Téléchargement officiel de l'ISO Windows 11.](#téléchargement-officiel-de-liso-windows-11)
    - [` 🧲 `︲Vérification de l'intégrité de l'ISO (SHA256).](#vérification-de-lintégrité-de-liso-sha256)
    - [` 🗂️ `︲Organisation des fichiers pour la VM.](#organisation-des-fichiers-pour-la-vm)
+
+
+---
 
 3. [` 🛠️ `︲Configuration de la machine virtuelle.](#configuration-de-la-machine-virtuelle)
    - [` ⚙️ `︲Paramètres matériels : RAM, CPU, Disque.](#paramètres-matériels--ram-cpu-disque)
@@ -22,10 +28,16 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
    - [` 📎 `︲Ajout de l'ISO dans le lecteur virtuel.](#ajout-de-liso-dans-le-lecteur-virtuel)
    - [` 🛡️ `︲Paramètres UEFI / Secure Boot / TPM virtuel.](#paramètres-uefi--secure-boot--tpm-virtuel)
 
+
+---
+
 4. [` 💿 `︲Installation de Windows 11.](#installation-de-windows-11)
    - [` 🌍 `︲Choix de la langue, région & clavier.](#choix-de-la-langue-région--clavier)
    - [` 🧱 `︲Partitionnement du disque virtuel.](#partitionnement-du-disque-virtuel)
    - [` 🚀 `︲Lancement de l'installation.](#lancement-de-linstallation)
+
+---
+
 
 5. [` 👤 `︲Configuration OOBE (Out-of-Box Experience).](#configuration-oobe-out-of-box-experience)
    - [` 👤 `︲Création du compte utilisateur local.](#création-du-compte-utilisateur-local)
@@ -34,13 +46,21 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
    - [` 📊 `︲Confidentialité & Paramètres optionnels.](#confidentialité--paramètres-optionnels)
    - [` 🎛️ `︲Paramètres OOBE avancés (optionnel).](#paramètres-oobe-avancés-optionnel)
 
+---
+
 6. [` 🧼 `︲Post-Installation Immédiate (VM).](#post-installation-immédiate-vm)
    - [` 🔄 `︲Mise à jour Windows Update.](#mise-à-jour-windows-update)
    - [` 🧩 `︲Installation des VMware Tools / Additions virtuelles.](#installation-des-vmware-tools--additions-virtuelles)
    - [` 🚫 `︲Désactivation des options inutiles (télémétrie, suggestions, pubs).](#désactivation-des-options-inutiles)
    - [` 🔐 `︲Vérification du compte & options de sécurité.](#vérification-du-compte--options-de-sécurité)
 
+---
+
+
 7. [` ✅ `︲Conclusion & Annexes.](#conclusion-et-annexes)
+
+
+---
 
 8. [` 🧰 `︲Outils & Ressources utilisés.](#outils--ressources-utilisés)
 
