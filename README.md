@@ -745,14 +745,10 @@ Récapitulatif :
 
 * ` 🌐 `︲Liens annexes :  
   * X [`🌐`]()  
-  * X [`🌐`]()  
-  * X [`🌐`]()
-  * X [`🌐`]()
-  * X [`🌐`]()
-
+  
 ---
 
-* ` 🤖 `︲**GPT-5.1 - `HIGH`** ︲ [`🌐`](https://chatgpt.com/)
+* ` 🤖 `︲**GPT-5.1** ︲ [`🌐`](https://chatgpt.com/)
   
 * ` ❓ `︲**Markdownguide.org** ︲ [`🌐`](https://www.markdownguide.org/)
   
@@ -763,11 +759,5 @@ Récapitulatif :
 * ` 😀 `︲**Smiley.cool** ︲ [`🌐`](https://smiley.cool/emoji-list.php)
   
 * ` ❓ `︲**Syntaxe GitHub Markdown** ︲ [`🌐`](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
----
-
-> ` ⏺️ `︲Nagi Player︲[`🌐`](https://github.com/Anthonyy232/Nagi)
-> 
-> ` ☕ `︲De la patience !
 
 ---
