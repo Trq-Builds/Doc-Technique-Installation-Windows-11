@@ -88,10 +88,6 @@ Ce dépôt GitHub met à disposition une documentation claire et complète pour 
 > - `🌐`︲**ISO Windows 11**︲[`🌐`](https://www.microsoft.com/fr-fr/software-download/windows11)
 >   
 > - ` 📦 `︲**VMWare** ︲[`🌐`](https://www.vmware.com/)
->   
-> - `👤`︲**Interface Chaise-Clavier**
-> 
-> - `☕`︲**Patience**
 
 ---
 
