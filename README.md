@@ -728,15 +728,6 @@ Après la configuration initiale, il est crucial de **vérifier les comptes util
 
 Félicitations ! Vous avez désormais une **VM Windows 11 complète et opérationnelle**, prête pour vos tests ou vos déploiements pédagogiques.
 
-Récapitulatif : 
-
-* Téléchargement et vérification de l’ISO officiel
-* Organisation des fichiers et configuration réseau
-* Paramètres UEFI, Secure Boot et TPM virtuel activés
-* Installation complète et OOBE terminée
-* Post-installation optimisée : mise à jour, VMware Tools, désactivation des options inutiles
-* Vérification de la sécurité et des comptes utilisateurs
-
 ---
 
 <a id="outils--ressources-utilisés"></a>
