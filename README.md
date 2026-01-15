@@ -722,7 +722,7 @@ Après la configuration initiale, il est crucial de **vérifier les comptes util
 
 ---
 
-Félicitations ! Vous avez désormais une **VM Windows 11 complète et opérationnelle**, prête pour vos tests ou vos déploiements pédagogiques.
+Félicitations ! Vous avez désormais une **VM Windows 11 complète et opérationnelle**, prête pour vos tests !
 
 ---
 
