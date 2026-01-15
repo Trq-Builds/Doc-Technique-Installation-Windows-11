@@ -735,16 +735,16 @@ Félicitations ! Vous avez désormais une **VM Windows 11 complète et opératio
   
 ---
 
-* ` 🤖 `︲**GPT-5.1** ︲ [`🌐`](https://chatgpt.com/)
+* ` 🤖 `︲**`GPT-5.1`** ︲ [`🌐`](https://chatgpt.com/)
   
-* ` ❓ `︲**Markdownguide.org** ︲ [`🌐`](https://www.markdownguide.org/)
+* ` ❓ `︲**`Markdownguide.org`** ︲ [`🌐`](https://www.markdownguide.org/)
   
-* ` 🤖 `︲**NotebookLM** ︲ [`🌐`](https://notebooklm.google.com/)
+* ` 🤖 `︲**`NotebookLM`** ︲ [`🌐`](https://notebooklm.google.com/)
   
-* ` ✂️ `︲**Screenpresso** ︲ [`🌐`](https://www.screenpresso.com/fr/)
+* ` ✂️ `︲**`Screenpresso`** ︲ [`🌐`](https://www.screenpresso.com/fr/)
   
-* ` 😀 `︲**Smiley.cool** ︲ [`🌐`](https://smiley.cool/emoji-list.php)
+* ` 😀 `︲**`Smiley.cool`** ︲ [`🌐`](https://smiley.cool/emoji-list.php)
   
-* ` ❓ `︲**Syntaxe GitHub Markdown** ︲ [`🌐`](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* ` ❓ `︲**`Syntaxe GitHub Markdown`** ︲ [`🌐`](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ---
