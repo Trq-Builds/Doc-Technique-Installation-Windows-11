@@ -729,9 +729,6 @@ Félicitations ! Vous avez désormais une **VM Windows 11 complète et opératio
 <a id="outils--ressources-utilisés"></a>
 
 ## ` 🧰 `︲Outils & Ressources utilisés
-
-* ` 🌐 `︲Liens annexes :  
-  * X [`🌐`]()  
   
 ---
 
