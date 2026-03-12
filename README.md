@@ -1,5 +1,11 @@
 # ` 🪟 `︲Doc-Technique-Installation-Windows-11
 
+![Windows 11](https://img.shields.io/badge/Windows-11-0078D6?logo=windows&logoColor=white)
+![Guide](https://img.shields.io/badge/Guide-Installation-blue)
+![UEFI](https://img.shields.io/badge/Firmware-UEFI-orange)
+![TPM](https://img.shields.io/badge/Requirement-TPM_2.0-green)
+![Markdown](https://img.shields.io/badge/Written_in-Markdown-black?logo=markdown)
+
 ---
 
 Ce dépôt GitHub met à disposition une documentation claire et complète pour réaliser une installation propre de Windows 11 en machine virtuelle, grâce à un guide structuré étape par étape et illustré de captures d’écran pour faciliter la compréhension.
