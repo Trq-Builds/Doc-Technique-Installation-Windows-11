@@ -1,10 +1,12 @@
 # ` 🪟 `︲Doc-Technique-Installation-Windows-11
 
-![Windows 11](https://img.shields.io/badge/Windows-11-0078D6?logo=windows&logoColor=white)
-![Guide](https://img.shields.io/badge/Guide-Installation-blue)
-![UEFI](https://img.shields.io/badge/Firmware-UEFI-orange)
-![TPM](https://img.shields.io/badge/Requirement-TPM_2.0-green)
-![Markdown](https://img.shields.io/badge/Written_in-Markdown-black?logo=markdown)
+<p align="center">
+  <img src="https://img.shields.io/badge/Windows-11-0078D6?logo=windows&logoColor=white&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Guide-Installation-007ACC?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Firmware-UEFI-FFA500?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Requirement-TPM_2.0-28A745?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Markdown-Written_in-2B7489?logo=markdown&style=for-the-badge">
+</p>
 
 ---
 
